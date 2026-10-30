@@ -837,24 +837,24 @@
     "end": 2006,
     "body": "Sedan",
     "front": {
-      "file": "Skoda Superb front 20080524.jpg",
-      "author": "Magnus Manske",
-      "license": "CC-BY-SA-3.0-DE",
+      "file": "SkodaSuperb.jpg",
+      "author": "Michel de Vries",
+      "license": "CC BY-SA 3.0 de",
       "source": "https://commons.wikimedia.org/wiki/File:SkodaSuperb.jpg",
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/SkodaSuperb.jpg/1920px-SkodaSuperb.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20091227105739",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/SkodaSuperb.jpg/960px-SkodaSuperb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Skoda_Superb_front_20080524.jpg/960px-Skoda_Superb_front_20080524.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "original": "https://commons.wikimedia.org/wiki/File:2005_Skoda_Superb_Elegance_TDi_1.9_Rear.jpg"
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f3/SkodaSuperb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
     },
     "rear": {
-      "file": "Skoda Superb rear 20080524.jpg",
+      "file": "2005 Skoda Superb Elegance TDi 1.9 Rear.jpg",
       "author": "Vauxford",
-      "license": "CC BY-SA 3.0",
+      "license": "CC BY-SA 4.0",
       "source": "https://commons.wikimedia.org/wiki/File:2005_Skoda_Superb_Elegance_TDi_1.9_Rear.jpg",
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/2005_Skoda_Superb_Elegance_TDi_1.9_Rear.jpg/1920px-2005_Skoda_Superb_Elegance_TDi_1.9_Rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20190501003055",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/2005_Skoda_Superb_Elegance_TDi_1.9_Rear.jpg/960px-2005_Skoda_Superb_Elegance_TDi_1.9_Rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skoda_Superb_rear_20080524.jpg/960px-Skoda_Superb_rear_20080524.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "original": "https://commons.wikimedia.org/wiki/File:2005_Skoda_Superb_Elegance_TDi_1.9_Rear.jpg"
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9b/2005_Skoda_Superb_Elegance_TDi_1.9_Rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
     },
     "description": "Klasický dlouhý sedan s oblými světlomety a úzkou svisle členěnou maskou. Zadní lampy zůstávají celé v blatnících.",
     "group": "Evropa",
