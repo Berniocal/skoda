@@ -1,23 +1,25 @@
-# Atlas škodovek — kompletní katalog
+# Atlas škodovek — online správa přes GitHub token
 
-Obnovený původní vzhled a ovládání Atlasu podle uložené stránky s kompletními daty od autora.
+Původní srovnávač se zachovaným vzhledem a daty všech modelů.
 
-**Obsah:** 40 modelových řad, 78 vzhledových verzí a 95 položek včetně karoserií.
+## Online administrace
 
-Zachován výběr generací, faceliftů a karoserií, vlastní srovnání, mřížka a řádkové rozložení, zvětšování fotografií a sdílení výběru pomocí URL.
+Otevři `/skoda/admin.html`, vlož **Fine-grained Personal Access Token**, který má přístup jen k repozitáři `Berniocal/skoda` s oprávněním **Contents → Read and write**. Token se neposílá do ChatGPT ani neukládá do GitHubu, localStorage, sessionStorage či URL. Po obnovení stránky je nutné ho znovu vložit.
 
-Fotografie Octavie I po faceliftu (Liftback): **zepředu Car and Driving**, **zezadu Auto ESA**. Jde o externí fotografie s právy jejich držitelů, nikoliv o snímky Wikimedia Commons.
+1. Klikni **Připojit GitHub**.
+2. Klikni **Načíst z GitHubu**. Načte aktuální veřejný `data.json` a bezpečně si zapamatuje SHA verze.
+3. Uprav libovolný model, generaci, facelift, karoserii, popis, odkazy na obrázky, autory či licence. Přidávej, mazej, přeuspořádávej položky.
+4. Klikni **Zveřejnit katalog na GitHubu**. Přímý zápis vytvoří commit do `main` a GitHub Pages nasadí nová data.
+5. V sekci **Pokročilé: upravit soubory celého webu** můžeš otevírat a měnit `index.html`, `style.css`, `app.js`, `admin.html`, `admin.js`, `photo.html`, `data.json` a `README.md`. Také se zapisují na GitHub jako commity.
 
-## Administrace
+Pro zálohu zůstává možnost lokálního uložení, exportu a importu `data.json`.
 
-Na `admin.html` lze přidávat, upravovat a mazat modely, roky, popisky, URL fotografií i metadata.
+**Bezpečnost:** Používej krátkodobý token s oprávněními výhradně pro `skoda`. Token je heslo, nezadávej ho na nedůvěryhodných stránkách a nesdílej ho v chatu. Administrace je veřejně dostupná, ale bez tokenu nemůže zapisovat do repozitáře. Pro trvalé zabezpečení s přihlášením lze později přejít na GitHub OAuth/Backend.
 
-Admin ukládá změny **lokálně v prohlížeči**. Pro veřejné zveřejnění změn je nutné použít tlačítko **Stáhnout data.json** a v repozitáři nahradit soubor `data.json`. Tato veřejná statická stránka neukládá žádná hesla ani tokeny GitHub.
+**Ochrana před souběžnými úpravami:** GitHub API vyžaduje blob SHA při uložení. Pokud soubor mezitím změnil jiný uživatel, ukládání selže místo tichého přepsání.
 
-## Spuštění
+Repozitář: https://github.com/Berniocal/skoda
 
-Web je v `index.html`, admin v `admin.html`, údaje v `data.json`. Umístěte soubory do kořene GitHub Pages a používejte HTTP(S), protože web načítá JSON přes `fetch`.
+Zdrojová původní aplikace: https://skoda-atlas-bernard.cozyfig132.chatgpt.site/
 
-Původně zveřejněný web: https://skoda-atlas-bernard.cozyfig132.chatgpt.site/
-
-Rekonstrukce zachovává vzhled a interakce podle uložené kopie, ale nezaručuje bitově stejný build. Externí zdroje fotografií mohou odmítnout jejich načtení.
+Fotografie jsou externí odkazy. Počet katalogových položek určuje obsah `data.json`.
