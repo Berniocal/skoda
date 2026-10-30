@@ -1,0 +1,2852 @@
+[
+  {
+    "id": "octavia-i-0-liftback",
+    "model": "Octavia",
+    "generation": "I",
+    "facelift": false,
+    "start": 1996,
+    "end": 2000,
+    "body": "Liftback",
+    "front": {
+      "file": "1998 Skoda Octavia 1.9 TDi SLX (15687990831).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/1998_Skoda_Octavia_1.9_TDi_SLX_(15687990831).jpg/960px-1998_Skoda_Octavia_1.9_TDi_SLX_(15687990831).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/1998_Skoda_Octavia_1.9_TDi_SLX_(15687990831).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:1998_Skoda_Octavia_1.9_TDi_SLX_(15687990831).jpg",
+      "author": "Kieran White",
+      "license": "CC BY 2.0"
+    },
+    "rear": {
+      "file": "1998 Skoda Octavia 1.9 TDi SLX (15668124176).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/1998_Skoda_Octavia_1.9_TDi_SLX_(15668124176).jpg/960px-1998_Skoda_Octavia_1.9_TDi_SLX_(15668124176).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5d/1998_Skoda_Octavia_1.9_TDi_SLX_(15668124176).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:1998_Skoda_Octavia_1.9_TDi_SLX_(15668124176).jpg",
+      "author": "Kieran White",
+      "license": "CC BY 2.0"
+    },
+    "description": "Dvě jednoduchá obdélníková světla, úzká maska s chromovaným lemem a výrazné černé lišty. Vzadu kompaktní obdélníkové svítilny. Proti pozdějším generacím působí užší a hranatější.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "model": "Octavia",
+    "generation": "I",
+    "facelift": false,
+    "start": 1998,
+    "end": 2000,
+    "body": "Kombi",
+    "front": {
+      "url": "https://cdn.skoda-storyboard.com/2022/08/1998_unor_brezen_octavia_combi_var02.jpg",
+      "source": "https://www.skoda-storyboard.com/cs/skoda-svet-cs/skoda-octavia-combi-25-let-novodobe-kariery/",
+      "author": "Škoda Auto",
+      "license": "© Škoda Auto – oficiální fotografie, externí odkaz"
+    },
+    "rear": {
+      "url": "https://cdn.skoda-storyboard.com/2022/08/1998_unor_brezen_octavia_combi_var03-copy.jpg",
+      "source": "https://www.skoda-storyboard.com/cs/skoda-svet-cs/skoda-octavia-combi-25-let-novodobe-kariery/",
+      "author": "Škoda Auto",
+      "license": "© Škoda Auto – oficiální fotografie, externí odkaz"
+    },
+    "description": "Původní kombi první generace se světlomety před modernizací 2000; dlouhá rovná střecha a vysoká svislá zadní světla.",
+    "note": "Ověřeno vizuálně: oba oficiální snímky zachycují sériovou Octavii Combi z roku 1998. Zadní fotografie je pohled šikmo zezadu a z boku. Fotografie jsou odlišné vozy. Snímky jsou chráněné autorským právem Škoda Auto, nejsou pod licencí CC.",
+    "needsVisualVerification": false,
+    "group": "Evropa",
+    "id": "octavia-i-0-kombi"
+  },
+  {
+    "id": "octavia-i-1-liftback",
+    "model": "Octavia",
+    "generation": "I",
+    "facelift": true,
+    "start": 2000,
+    "end": 2010,
+    "body": "Liftback",
+    "front": {
+      "url": "https://cdn.caranddriving.com/f2/images/used/large/Skoda/skodaoct.jpg",
+      "original": "https://cdn.caranddriving.com/f2/images/used/large/Skoda/skodaoct.jpg",
+      "source": "https://cdn.caranddriving.com/f2/images/used/large/Skoda/skodaoct.jpg",
+      "author": "Car and Driving",
+      "license": "© držitel práv; externí fotografie"
+    },
+    "rear": {
+      "url": "https://www.autoesa.cz/zajimavosti/wp-content/uploads/2023/09/525287448-5-1024x768.jpg",
+      "original": "https://www.autoesa.cz/zajimavosti/wp-content/uploads/2023/09/525287448-5-1024x768.jpg",
+      "source": "https://www.autoesa.cz/zajimavosti/wp-content/uploads/2023/09/525287448-5-1024x768.jpg",
+      "author": "Auto ESA",
+      "license": "© držitel práv; externí fotografie"
+    },
+    "description": "Čirá přední světla s propracovanější optikou, upravená maska a nárazníky. Základní silueta zůstala stejná. Provedení Tour je stále první generace, nikoli samostatná nová generace.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější. Fotografie zepředu: Car and Driving; zezadu: Auto ESA (externí autorsky chráněné fotografie)."
+  },
+  {
+    "id": "octavia-i-1-kombi",
+    "model": "Octavia",
+    "generation": "I",
+    "facelift": true,
+    "start": 2000,
+    "end": 2010,
+    "body": "Kombi",
+    "front": {
+      "file": "Skoda Octavia front 20071007.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Skoda_Octavia_front_20071007.jpg/960px-Skoda_Octavia_front_20071007.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Skoda_Octavia_front_20071007.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_front_20071007.jpg",
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0"
+    },
+    "rear": {
+      "file": "Skoda Octavia rear 20071007.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Skoda_Octavia_rear_20071007.jpg/960px-Skoda_Octavia_rear_20071007.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/05/Skoda_Octavia_rear_20071007.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_rear_20071007.jpg",
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0"
+    },
+    "description": "Čirá přední světla s propracovanější optikou, upravená maska a nárazníky. Základní silueta zůstala stejná. Provedení Tour je stále první generace, nikoli samostatná nová generace.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-ii-0-liftback",
+    "model": "Octavia",
+    "generation": "II",
+    "facelift": false,
+    "start": 2004,
+    "end": 2008,
+    "body": "Liftback",
+    "front": {
+      "file": "Skoda Octavia II front 20100923.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Skoda_Octavia_II_front_20100923.jpg/960px-Skoda_Octavia_II_front_20100923.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Skoda_Octavia_II_front_20100923.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_II_front_20100923.jpg",
+      "author": "M 93",
+      "license": "Attribution"
+    },
+    "rear": {
+      "file": "Skoda Octavia II rear 20100923.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Skoda_Octavia_II_rear_20100923.jpg/960px-Skoda_Octavia_II_rear_20100923.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/60/Skoda_Octavia_II_rear_20100923.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_II_rear_20100923.jpg",
+      "author": "M 93",
+      "license": "Attribution"
+    },
+    "description": "Větší, oblejší karoserie, vyšší přední světlomety a mohutnější maska než u jedničky. Vzadu vyšší svítilny se světelným motivem písmene C.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-ii-0-kombi",
+    "model": "Octavia",
+    "generation": "II",
+    "facelift": false,
+    "start": 2004,
+    "end": 2008,
+    "body": "Kombi",
+    "front": {
+      "file": "Skoda Octavia Combi front 20071125.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Skoda_Octavia_Combi_front_20071125.jpg/960px-Skoda_Octavia_Combi_front_20071125.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/Skoda_Octavia_Combi_front_20071125.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_Combi_front_20071125.jpg",
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0"
+    },
+    "rear": {
+      "file": "Skoda Octavia Combi rear 20071125.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Skoda_Octavia_Combi_rear_20071125.jpg/960px-Skoda_Octavia_Combi_rear_20071125.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/37/Skoda_Octavia_Combi_rear_20071125.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_Combi_rear_20071125.jpg",
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0"
+    },
+    "description": "Větší, oblejší karoserie, vyšší přední světlomety a mohutnější maska než u jedničky. Vzadu vyšší svítilny se světelným motivem písmene C.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-ii-1-liftback",
+    "model": "Octavia",
+    "generation": "II",
+    "facelift": true,
+    "start": 2008,
+    "end": 2013,
+    "body": "Liftback",
+    "front": {
+      "file": "2011 Skoda Octavia S TSi S-A 1.2 Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2011_Skoda_Octavia_S_TSi_S-A_1.2_Front.jpg/960px-2011_Skoda_Octavia_S_TSi_S-A_1.2_Front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bf/2011_Skoda_Octavia_S_TSi_S-A_1.2_Front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2011_Skoda_Octavia_S_TSi_S-A_1.2_Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0"
+    },
+    "rear": {
+      "file": "2011 Skoda Octavia S TSi S-A 1.2 Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2011_Skoda_Octavia_S_TSi_S-A_1.2_Rear.jpg/960px-2011_Skoda_Octavia_S_TSi_S-A_1.2_Rear.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0d/2011_Skoda_Octavia_S_TSi_S-A_1.2_Rear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2011_Skoda_Octavia_S_TSi_S-A_1.2_Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0"
+    },
+    "description": "Nejrychleji ji poznáš podle předních světel vytažených vzhůru do boků a jiné spodní části nárazníku. Vzadu jsou změny podstatně méně nápadné než vpředu.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-ii-1-kombi",
+    "model": "Octavia",
+    "generation": "II",
+    "facelift": true,
+    "start": 2008,
+    "end": 2013,
+    "body": "Kombi",
+    "front": {
+      "file": "Skoda Octavia II Combi 1.4 Facelift front 20100516.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Skoda_Octavia_II_Combi_1.4_Facelift_front_20100516.jpg/960px-Skoda_Octavia_II_Combi_1.4_Facelift_front_20100516.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Skoda_Octavia_II_Combi_1.4_Facelift_front_20100516.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_II_Combi_1.4_Facelift_front_20100516.jpg",
+      "author": "M 93",
+      "license": "Attribution"
+    },
+    "rear": {
+      "file": "Skoda Octavia II Combi 1.4 Facelift rear 20100516.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Skoda_Octavia_II_Combi_1.4_Facelift_rear_20100516.jpg/960px-Skoda_Octavia_II_Combi_1.4_Facelift_rear_20100516.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Skoda_Octavia_II_Combi_1.4_Facelift_rear_20100516.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_II_Combi_1.4_Facelift_rear_20100516.jpg",
+      "author": "M 93",
+      "license": "Attribution"
+    },
+    "description": "Nejrychleji ji poznáš podle předních světel vytažených vzhůru do boků a jiné spodní části nárazníku. Vzadu jsou změny podstatně méně nápadné než vpředu.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-iii-0-liftback",
+    "model": "Octavia",
+    "generation": "III",
+    "facelift": false,
+    "start": 2012,
+    "end": 2017,
+    "body": "Liftback",
+    "front": {
+      "file": "Skoda Octavia III TDI Front.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Skoda_Octavia_III_TDI_Front.JPG/960px-Skoda_Octavia_III_TDI_Front.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/46/Skoda_Octavia_III_TDI_Front.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_III_TDI_Front.JPG",
+      "author": "Thomas doerfer",
+      "license": "CC BY-SA 3.0"
+    },
+    "rear": {
+      "file": "Skoda Octavia III TDI Heck.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Skoda_Octavia_III_TDI_Heck.JPG/960px-Skoda_Octavia_III_TDI_Heck.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Skoda_Octavia_III_TDI_Heck.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_III_TDI_Heck.JPG",
+      "author": "Thomas doerfer",
+      "license": "CC BY-SA 3.0"
+    },
+    "description": "Ostřejší hrany, užší jednodílná přední světla a širší maska. Vzadu lomené linky a hranatější světla s motivem C. Proti dvojce působí širší a níže posazená.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-iii-0-kombi",
+    "model": "Octavia",
+    "generation": "III",
+    "facelift": false,
+    "start": 2013,
+    "end": 2017,
+    "body": "Kombi",
+    "front": {
+      "file": "Skoda Octavia Combi 1.6 TDI Ambition (III) – Frontansicht, 11. August 2013, Essen.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Skoda_Octavia_Combi_1.6_TDI_Ambition_(III)_%E2%80%93_Frontansicht%2C_11._August_2013%2C_Essen.jpg/960px-Skoda_Octavia_Combi_1.6_TDI_Ambition_(III)_%E2%80%93_Frontansicht%2C_11._August_2013%2C_Essen.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Skoda_Octavia_Combi_1.6_TDI_Ambition_(III)_%E2%80%93_Frontansicht%2C_11._August_2013%2C_Essen.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_Combi_1.6_TDI_Ambition_(III)_%E2%80%93_Frontansicht%2C_11._August_2013%2C_Essen.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0 DE"
+    },
+    "rear": {
+      "file": "Skoda Octavia Combi 1.6 TDI Ambition (III) – Heckansicht, 11. August 2013, Essen.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Skoda_Octavia_Combi_1.6_TDI_Ambition_(III)_%E2%80%93_Heckansicht%2C_11._August_2013%2C_Essen.jpg/960px-Skoda_Octavia_Combi_1.6_TDI_Ambition_(III)_%E2%80%93_Heckansicht%2C_11._August_2013%2C_Essen.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Skoda_Octavia_Combi_1.6_TDI_Ambition_(III)_%E2%80%93_Heckansicht%2C_11._August_2013%2C_Essen.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_Combi_1.6_TDI_Ambition_(III)_%E2%80%93_Heckansicht%2C_11._August_2013%2C_Essen.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0 DE"
+    },
+    "description": "Ostřejší hrany, užší jednodílná přední světla a širší maska. Vzadu lomené linky a hranatější světla s motivem C. Proti dvojce působí širší a níže posazená.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-iii-1-liftback",
+    "model": "Octavia",
+    "generation": "III",
+    "facelift": true,
+    "start": 2017,
+    "end": 2020,
+    "body": "Liftback",
+    "front": {
+      "file": "2018 Skoda Octavia SE TDi S-A 1.6 Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2018_Skoda_Octavia_SE_TDi_S-A_1.6_Front.jpg/960px-2018_Skoda_Octavia_SE_TDi_S-A_1.6_Front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2018_Skoda_Octavia_SE_TDi_S-A_1.6_Front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Skoda_Octavia_SE_TDi_S-A_1.6_Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0"
+    },
+    "rear": {
+      "file": "2018 Skoda Octavia SE TDi S-A 1.6 Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/2018_Skoda_Octavia_SE_TDi_S-A_1.6_Rear.jpg/960px-2018_Skoda_Octavia_SE_TDi_S-A_1.6_Rear.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/2018_Skoda_Octavia_SE_TDi_S-A_1.6_Rear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Skoda_Octavia_SE_TDi_S-A_1.6_Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0"
+    },
+    "description": "Typická čtyřoká příď: každý přední světlomet je opticky rozdělený na dvě části. Základ karoserie zůstal z trojky, vzadu se měnila hlavně grafika světel.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-iii-1-kombi",
+    "model": "Octavia",
+    "generation": "III",
+    "facelift": true,
+    "start": 2017,
+    "end": 2020,
+    "body": "Kombi",
+    "front": {
+      "file": "2017 Skoda Octavia SE L TDi S-A Estate 2.0 Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2017_Skoda_Octavia_SE_L_TDi_S-A_Estate_2.0_Front.jpg/960px-2017_Skoda_Octavia_SE_L_TDi_S-A_Estate_2.0_Front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/23/2017_Skoda_Octavia_SE_L_TDi_S-A_Estate_2.0_Front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2017_Skoda_Octavia_SE_L_TDi_S-A_Estate_2.0_Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0"
+    },
+    "rear": {
+      "file": "2017 Skoda Octavia SE L TDi S-A Estate 2.0 Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2017_Skoda_Octavia_SE_L_TDi_S-A_Estate_2.0_Rear.jpg/960px-2017_Skoda_Octavia_SE_L_TDi_S-A_Estate_2.0_Rear.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/2017_Skoda_Octavia_SE_L_TDi_S-A_Estate_2.0_Rear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2017_Skoda_Octavia_SE_L_TDi_S-A_Estate_2.0_Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0"
+    },
+    "description": "Typická čtyřoká příď: každý přední světlomet je opticky rozdělený na dvě části. Základ karoserie zůstal z trojky, vzadu se měnila hlavně grafika světel.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-iv-0-liftback",
+    "model": "Octavia",
+    "generation": "IV",
+    "facelift": false,
+    "start": 2019,
+    "end": 2024,
+    "body": "Liftback",
+    "front": {
+      "file": "2021 Skoda Octavia SE First Edition TSi e-TEC SA 1.0 Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/2021_Skoda_Octavia_SE_First_Edition_TSi_e-TEC_SA_1.0_Front.jpg/960px-2021_Skoda_Octavia_SE_First_Edition_TSi_e-TEC_SA_1.0_Front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/2021_Skoda_Octavia_SE_First_Edition_TSi_e-TEC_SA_1.0_Front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2021_Skoda_Octavia_SE_First_Edition_TSi_e-TEC_SA_1.0_Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0"
+    },
+    "rear": {
+      "file": "2021 Skoda Octavia SE First Edition TSi e-TEC SA 1.0 Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2021_Skoda_Octavia_SE_First_Edition_TSi_e-TEC_SA_1.0_Rear.jpg/960px-2021_Skoda_Octavia_SE_First_Edition_TSi_e-TEC_SA_1.0_Rear.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9c/2021_Skoda_Octavia_SE_First_Edition_TSi_e-TEC_SA_1.0_Rear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2021_Skoda_Octavia_SE_First_Edition_TSi_e-TEC_SA_1.0_Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0"
+    },
+    "description": "Návrat ke dvěma úzkým předním světlometům, výraznější šestiúhelníková maska a plynulejší boky. Zadní světla zasahují do víka; místo kulatého znaku je vzadu nápis ŠKODA.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-iv-0-kombi",
+    "model": "Octavia",
+    "generation": "IV",
+    "facelift": false,
+    "start": 2019,
+    "end": 2024,
+    "body": "Kombi",
+    "front": {
+      "file": "2020 Skoda Octavia SE L First Edition TDi Estate 2.0 Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2020_Skoda_Octavia_SE_L_First_Edition_TDi_Estate_2.0_Front.jpg/960px-2020_Skoda_Octavia_SE_L_First_Edition_TDi_Estate_2.0_Front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/2020_Skoda_Octavia_SE_L_First_Edition_TDi_Estate_2.0_Front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2020_Skoda_Octavia_SE_L_First_Edition_TDi_Estate_2.0_Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0"
+    },
+    "rear": {
+      "file": "2020 Skoda Octavia SE L First Edition TDi Estate 2.0 Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/2020_Skoda_Octavia_SE_L_First_Edition_TDi_Estate_2.0_Rear.jpg/960px-2020_Skoda_Octavia_SE_L_First_Edition_TDi_Estate_2.0_Rear.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/2020_Skoda_Octavia_SE_L_First_Edition_TDi_Estate_2.0_Rear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2020_Skoda_Octavia_SE_L_First_Edition_TDi_Estate_2.0_Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0"
+    },
+    "description": "Návrat ke dvěma úzkým předním světlometům, výraznější šestiúhelníková maska a plynulejší boky. Zadní světla zasahují do víka; místo kulatého znaku je vzadu nápis ŠKODA.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-iv-1-liftback",
+    "model": "Octavia",
+    "generation": "IV",
+    "facelift": true,
+    "start": 2024,
+    "end": null,
+    "body": "Liftback",
+    "front": {
+      "file": "2024 Skoda Octavia 110TSI Select front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2024_Skoda_Octavia_110TSI_Select_front.jpg/960px-2024_Skoda_Octavia_110TSI_Select_front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8a/2024_Skoda_Octavia_110TSI_Select_front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2024_Skoda_Octavia_110TSI_Select_front.jpg",
+      "author": "LuvsMG481",
+      "license": "CC BY-SA 4.0"
+    },
+    "rear": {
+      "file": "2024 Skoda Octavia 110TSI Select rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/2024_Skoda_Octavia_110TSI_Select_rear.jpg/960px-2024_Skoda_Octavia_110TSI_Select_rear.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/eb/2024_Skoda_Octavia_110TSI_Select_rear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2024_Skoda_Octavia_110TSI_Select_rear.jpg",
+      "author": "LuvsMG481",
+      "license": "CC BY-SA 4.0"
+    },
+    "description": "Nová grafika denního svícení se zalomením u masky, pozměněný nárazník a maska. Vzadu jemnější úpravy světel a nápisů. Konkrétní optika se liší podle výbavy světlometů.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "id": "octavia-iv-1-kombi",
+    "model": "Octavia",
+    "generation": "IV",
+    "facelift": true,
+    "start": 2024,
+    "end": null,
+    "body": "Kombi",
+    "front": {
+      "file": "Skoda Octavia Combi Selection (IV, Facelift) – f 13072025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Skoda_Octavia_Combi_Selection_(IV%2C_Facelift)_%E2%80%93_f_13072025.jpg/960px-Skoda_Octavia_Combi_Selection_(IV%2C_Facelift)_%E2%80%93_f_13072025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/94/Skoda_Octavia_Combi_Selection_(IV%2C_Facelift)_%E2%80%93_f_13072025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_Combi_Selection_(IV%2C_Facelift)_%E2%80%93_f_13072025.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0 DE"
+    },
+    "rear": {
+      "file": "Skoda Octavia Combi Selection (IV, Facelift) – h 13072025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Skoda_Octavia_Combi_Selection_(IV%2C_Facelift)_%E2%80%93_h_13072025.jpg/960px-Skoda_Octavia_Combi_Selection_(IV%2C_Facelift)_%E2%80%93_h_13072025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Skoda_Octavia_Combi_Selection_(IV%2C_Facelift)_%E2%80%93_h_13072025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_Combi_Selection_(IV%2C_Facelift)_%E2%80%93_h_13072025.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0 DE"
+    },
+    "description": "Nová grafika denního svícení se zalomením u masky, pozměněný nárazník a maska. Vzadu jemnější úpravy světel a nápisů. Konkrétní optika se liší podle výbavy světlometů.",
+    "group": "Evropa",
+    "source": "https://cdn.skoda-storyboard.com/2024/02/Octavia_Historie_420c1eb7.pdf",
+    "note": "Roky označují období vzhledové verze; výroba starší generace se mohla překrývat s novější."
+  },
+  {
+    "model": "Fabia",
+    "generation": "I",
+    "facelift": false,
+    "start": 1999,
+    "end": 2004,
+    "body": "Hatchback",
+    "front": {
+      "file": "2001 Skoda Fabia Comfort 8V 1.4 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2001_Skoda_Fabia_Comfort_8V_1.4_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/2001_Skoda_Fabia_Comfort_8V_1.4_Front.jpg/960px-2001_Skoda_Fabia_Comfort_8V_1.4_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/2001_Skoda_Fabia_Comfort_8V_1.4_Front.jpg/960px-2001_Skoda_Fabia_Comfort_8V_1.4_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/42/2001_Skoda_Fabia_Comfort_8V_1.4_Front.jpg"
+    },
+    "rear": {
+      "file": "2001 Skoda Fabia Comfort 8V 1.4 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2001_Skoda_Fabia_Comfort_8V_1.4_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2001_Skoda_Fabia_Comfort_8V_1.4_Rear.jpg/960px-2001_Skoda_Fabia_Comfort_8V_1.4_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2001_Skoda_Fabia_Comfort_8V_1.4_Rear.jpg/960px-2001_Skoda_Fabia_Comfort_8V_1.4_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/12/2001_Skoda_Fabia_Comfort_8V_1.4_Rear.jpg"
+    },
+    "description": "Oblá příď, vysoké hlavní světlomety a svislé zadní lampy po stranách víka. Krátký pětidveřový hatchback.",
+    "group": "Evropa",
+    "id": "fabia-i-0-hatchback"
+  },
+  {
+    "model": "Fabia",
+    "generation": "I",
+    "facelift": false,
+    "start": 2000,
+    "end": 2004,
+    "body": "Kombi",
+    "front": {
+      "file": "2004 Skoda Fabia Comfort 16V Estate 1.4 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Front.jpg/960px-2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Front.jpg/960px-2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Front.jpg"
+    },
+    "rear": {
+      "file": "2004 Skoda Fabia Comfort 16V Estate 1.4 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Rear.jpg/960px-2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Rear.jpg/960px-2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8e/2004_Skoda_Fabia_Comfort_16V_Estate_1.4_Rear.jpg"
+    },
+    "description": "Příď odpovídá Fabii I, záď je protažená do praktického kombi. Zadní světla zůstávají svislá po stranách víka.",
+    "group": "Evropa",
+    "id": "fabia-i-0-kombi"
+  },
+  {
+    "model": "Fabia",
+    "generation": "I",
+    "facelift": true,
+    "start": 2004,
+    "end": 2007,
+    "body": "Hatchback",
+    "front": {
+      "file": "Skoda Fabia front 20070822.jpg",
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_front_20070822.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Skoda_Fabia_front_20070822.jpg/960px-Skoda_Fabia_front_20070822.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Skoda_Fabia_front_20070822.jpg/960px-Skoda_Fabia_front_20070822.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Skoda_Fabia_front_20070822.jpg"
+    },
+    "rear": {
+      "file": "Skoda Fabia rear 20070822.jpg",
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_rear_20070822.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Skoda_Fabia_rear_20070822.jpg/960px-Skoda_Fabia_rear_20070822.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Skoda_Fabia_rear_20070822.jpg/960px-Skoda_Fabia_rear_20070822.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Skoda_Fabia_rear_20070822.jpg"
+    },
+    "description": "Základní oblé tvary zůstaly. Facelift upravil přední nárazník a masku, zejména rozvržení spodních otvorů; změny zadní části jsou nenápadné.",
+    "group": "Evropa",
+    "id": "fabia-i-1-hatchback"
+  },
+  {
+    "model": "Fabia",
+    "generation": "II",
+    "facelift": false,
+    "start": 2007,
+    "end": 2010,
+    "body": "Hatchback",
+    "front": {
+      "file": "Skoda Fabia II 20090426 front.JPG",
+      "author": "M 93",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_II_20090426_front.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Skoda_Fabia_II_20090426_front.JPG/960px-Skoda_Fabia_II_20090426_front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Skoda_Fabia_II_20090426_front.JPG/960px-Skoda_Fabia_II_20090426_front.JPG",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Skoda_Fabia_II_20090426_front.JPG"
+    },
+    "rear": {
+      "file": "Skoda Fabia II 20090426 rear.JPG",
+      "author": "M 93",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_II_20090426_rear.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Skoda_Fabia_II_20090426_rear.JPG/960px-Skoda_Fabia_II_20090426_rear.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Skoda_Fabia_II_20090426_rear.JPG/960px-Skoda_Fabia_II_20090426_rear.JPG",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/70/Skoda_Fabia_II_20090426_rear.JPG"
+    },
+    "description": "Vyšší a opticky užší karoserie, velké vystouplé přední světlomety. Zadní světla jsou stále vysoká a svislá.",
+    "group": "Evropa",
+    "id": "fabia-ii-0-hatchback"
+  },
+  {
+    "model": "Fabia",
+    "generation": "II",
+    "facelift": false,
+    "start": 2007,
+    "end": 2010,
+    "body": "Kombi",
+    "front": {
+      "file": "Skoda Fabia II Combi 20090503 front.JPG",
+      "author": "M 93",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_II_Combi_20090503_front.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Skoda_Fabia_II_Combi_20090503_front.JPG/960px-Skoda_Fabia_II_Combi_20090503_front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Skoda_Fabia_II_Combi_20090503_front.JPG/960px-Skoda_Fabia_II_Combi_20090503_front.JPG",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/Skoda_Fabia_II_Combi_20090503_front.JPG"
+    },
+    "rear": {
+      "file": "Skoda Fabia II Combi 20090503 rear.JPG",
+      "author": "M 93",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_II_Combi_20090503_rear.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Skoda_Fabia_II_Combi_20090503_rear.JPG/960px-Skoda_Fabia_II_Combi_20090503_rear.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Skoda_Fabia_II_Combi_20090503_rear.JPG/960px-Skoda_Fabia_II_Combi_20090503_rear.JPG",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/70/Skoda_Fabia_II_Combi_20090503_rear.JPG"
+    },
+    "description": "Vysoká kabina druhé generace s prodlouženou střechou a zadním převisem. Vysoké zadní lampy lemují velké téměř svislé víko.",
+    "group": "Evropa",
+    "id": "fabia-ii-0-kombi"
+  },
+  {
+    "model": "Fabia",
+    "generation": "II",
+    "facelift": true,
+    "start": 2010,
+    "end": 2014,
+    "body": "Hatchback",
+    "front": {
+      "file": "Skoda Fabia Familiy (II, Facelift) – Frontansicht, 2. Juni 2011, Düsseldorf.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Frontansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Frontansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg/960px-Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Frontansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Frontansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg/960px-Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Frontansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Frontansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg"
+    },
+    "rear": {
+      "file": "Skoda Fabia Familiy (II, Facelift) – Heckansicht, 2. Juni 2011, Düsseldorf.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Heckansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Heckansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg/960px-Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Heckansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Heckansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg/960px-Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Heckansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Skoda_Fabia_Familiy_%28II%2C_Facelift%29_%E2%80%93_Heckansicht%2C_2._Juni_2011%2C_D%C3%BCsseldorf.jpg"
+    },
+    "description": "Širší a vodorovnější výraz přídě: přepracovaná světla, maska a nárazník. Zezadu se od původní druhé generace liší jen málo.",
+    "group": "Evropa",
+    "id": "fabia-ii-1-hatchback"
+  },
+  {
+    "model": "Fabia",
+    "generation": "II",
+    "facelift": true,
+    "start": 2010,
+    "end": 2014,
+    "body": "Kombi",
+    "front": {
+      "file": "Skoda Fabia II Combi Facelift front 20100515.jpg",
+      "author": "M 93",
+      "license": "Attribution",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_II_Combi_Facelift_front_20100515.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Skoda_Fabia_II_Combi_Facelift_front_20100515.jpg/960px-Skoda_Fabia_II_Combi_Facelift_front_20100515.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Skoda_Fabia_II_Combi_Facelift_front_20100515.jpg/960px-Skoda_Fabia_II_Combi_Facelift_front_20100515.jpg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Attribution",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/33/Skoda_Fabia_II_Combi_Facelift_front_20100515.jpg"
+    },
+    "rear": {
+      "file": "Skoda Fabia II Combi Facelift rear 20100515.jpg",
+      "author": "M 93",
+      "license": "Attribution",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_II_Combi_Facelift_rear_20100515.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Skoda_Fabia_II_Combi_Facelift_rear_20100515.jpg/960px-Skoda_Fabia_II_Combi_Facelift_rear_20100515.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Skoda_Fabia_II_Combi_Facelift_rear_20100515.jpg/960px-Skoda_Fabia_II_Combi_Facelift_rear_20100515.jpg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Attribution",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/38/Skoda_Fabia_II_Combi_Facelift_rear_20100515.jpg"
+    },
+    "description": "Kombi s upravenou širší přídí po faceliftu; hlavní změny jsou ve světlometech, masce a nárazníku. Záď si ponechává původní základní tvar.",
+    "group": "Evropa",
+    "id": "fabia-ii-1-kombi"
+  },
+  {
+    "model": "Fabia",
+    "generation": "III",
+    "facelift": false,
+    "start": 2014,
+    "end": 2018,
+    "body": "Hatchback",
+    "front": {
+      "file": "2014 Skoda Fabia III Typ NJ3 1.2 TSI Style Metall-Grau-Metallic Vorderansicht.jpg",
+      "author": "Kickaffe (Mario von Berg)",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Vorderansicht.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Vorderansicht.jpg/960px-2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Vorderansicht.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Vorderansicht.jpg/960px-2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Vorderansicht.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f3/2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Vorderansicht.jpg"
+    },
+    "rear": {
+      "file": "2014 Skoda Fabia III Typ NJ3 1.2 TSI Style Metall-Grau-Metallic Heckansicht.jpg",
+      "author": "Kickaffe (Mario von Berg)",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Heckansicht.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Heckansicht.jpg/960px-2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Heckansicht.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Heckansicht.jpg/960px-2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Heckansicht.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/05/2014_Skoda_Fabia_III_Typ_NJ3_1.2_TSI_Style_Metall-Grau-Metallic_Heckansicht.jpg"
+    },
+    "description": "Ostřejší hrany a nižší, širší postoj než u Fabie II. Hranaté přední světlomety, vzadu kompaktní lampy pouze v blatnících.",
+    "group": "Evropa",
+    "id": "fabia-iii-0-hatchback"
+  },
+  {
+    "model": "Fabia",
+    "generation": "III",
+    "facelift": false,
+    "start": 2015,
+    "end": 2018,
+    "body": "Kombi",
+    "front": {
+      "file": "Skoda Fabia Combi 1.2 TSI Style (III) – Frontansicht, 3. April 2015, Düsseldorf.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Frontansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Frontansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg/960px-Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Frontansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Frontansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg/960px-Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Frontansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Frontansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg"
+    },
+    "rear": {
+      "file": "Skoda Fabia Combi 1.2 TSI Style (III) – Heckansicht, 3. April 2015, Düsseldorf.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Heckansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Heckansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg/960px-Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Heckansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Heckansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg/960px-Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Heckansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Skoda_Fabia_Combi_1.2_TSI_Style_%28III%29_%E2%80%93_Heckansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg"
+    },
+    "description": "Širší hranatá příď třetí generace a dlouhá střecha kombi. Zadní lampy jsou kompaktní a zůstávají celé v blatnících.",
+    "group": "Evropa",
+    "id": "fabia-iii-0-kombi"
+  },
+  {
+    "model": "Fabia",
+    "generation": "III",
+    "facelift": true,
+    "start": 2018,
+    "end": 2021,
+    "body": "Hatchback",
+    "front": {
+      "file": "2018 Skoda Fabia facelift Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Skoda_Fabia_facelift_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2018_Skoda_Fabia_facelift_Front.jpg/960px-2018_Skoda_Fabia_facelift_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2018_Skoda_Fabia_facelift_Front.jpg/960px-2018_Skoda_Fabia_facelift_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f4/2018_Skoda_Fabia_facelift_Front.jpg"
+    },
+    "rear": {
+      "file": "2018 Skoda Fabia facelift Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Skoda_Fabia_facelift_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/2018_Skoda_Fabia_facelift_Rear.jpg/960px-2018_Skoda_Fabia_facelift_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/2018_Skoda_Fabia_facelift_Rear.jpg/960px-2018_Skoda_Fabia_facelift_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/2018_Skoda_Fabia_facelift_Rear.jpg"
+    },
+    "description": "Přepracované světlomety, maska a nárazník; podle výbavy LED světla. Základní silueta zůstává, vzadu se mění detaily lamp a nárazníku.",
+    "group": "Evropa",
+    "id": "fabia-iii-1-hatchback"
+  },
+  {
+    "model": "Fabia",
+    "generation": "III",
+    "facelift": true,
+    "start": 2018,
+    "end": 2022,
+    "body": "Kombi",
+    "front": {
+      "file": "2018 Skoda Fabia SE L TSi S-A Estate facelift 1.0 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Front.jpg/960px-2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Front.jpg/960px-2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Front.jpg"
+    },
+    "rear": {
+      "file": "2018 Skoda Fabia SE L TSi S-A Estate facelift 1.0 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Rear.jpg/960px-2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Rear.jpg/960px-2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0e/2018_Skoda_Fabia_SE_L_TSi_S-A_Estate_facelift_1.0_Rear.jpg"
+    },
+    "description": "Kombi po faceliftu s přepracovanými světlomety, maskou a nárazníkem; zezadu změny v detailech lamp a nárazníku.",
+    "group": "Evropa",
+    "id": "fabia-iii-1-kombi"
+  },
+  {
+    "model": "Fabia",
+    "generation": "IV",
+    "facelift": false,
+    "start": 2021,
+    "end": null,
+    "body": "Hatchback",
+    "front": {
+      "file": "Skoda Fabia IV - front.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_IV_-_front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Skoda_Fabia_IV_-_front.jpg/960px-Skoda_Fabia_IV_-_front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Skoda_Fabia_IV_-_front.jpg/960px-Skoda_Fabia_IV_-_front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/35/Skoda_Fabia_IV_-_front.jpg"
+    },
+    "rear": {
+      "file": "Skoda Fabia IV - rear.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_IV_-_rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Skoda_Fabia_IV_-_rear.jpg/960px-Skoda_Fabia_IV_-_rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Skoda_Fabia_IV_-_rear.jpg/960px-Skoda_Fabia_IV_-_rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Skoda_Fabia_IV_-_rear.jpg"
+    },
+    "description": "Výrazně širší postoj, nízké úzké světlomety a velká maska. Vodorovná zadní světla poprvé zasahují i do víka kufru.",
+    "group": "Evropa",
+    "id": "fabia-iv-0-hatchback"
+  },
+  {
+    "model": "Superb",
+    "generation": "I",
+    "facelift": false,
+    "start": 2001,
+    "end": 2006,
+    "body": "Sedan",
+    "front": {
+      "file": "Skoda Superb front 20080524.jpg",
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Superb_front_20080524.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Skoda_Superb_front_20080524.jpg/960px-Skoda_Superb_front_20080524.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Skoda_Superb_front_20080524.jpg/960px-Skoda_Superb_front_20080524.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Skoda_Superb_front_20080524.jpg"
+    },
+    "rear": {
+      "file": "Skoda Superb rear 20080524.jpg",
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Superb_rear_20080524.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skoda_Superb_rear_20080524.jpg/960px-Skoda_Superb_rear_20080524.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skoda_Superb_rear_20080524.jpg/960px-Skoda_Superb_rear_20080524.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Skoda_Superb_rear_20080524.jpg"
+    },
+    "description": "Klasický dlouhý sedan s oblými světlomety a úzkou svisle členěnou maskou. Zadní lampy zůstávají celé v blatnících.",
+    "group": "Evropa",
+    "id": "superb-i-0-sedan"
+  },
+  {
+    "model": "Superb",
+    "generation": "I",
+    "facelift": true,
+    "start": 2006,
+    "end": 2008,
+    "body": "Sedan",
+    "front": {
+      "file": "Skoda Superb Facelift front.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Superb_Facelift_front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Skoda_Superb_Facelift_front.jpg/960px-Skoda_Superb_Facelift_front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Skoda_Superb_Facelift_front.jpg/960px-Skoda_Superb_Facelift_front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/Skoda_Superb_Facelift_front.jpg"
+    },
+    "rear": {
+      "file": "Skoda Superb Facelift rear.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Superb_Facelift_rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Skoda_Superb_Facelift_rear.jpg/960px-Skoda_Superb_Facelift_rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Skoda_Superb_Facelift_rear.jpg/960px-Skoda_Superb_Facelift_rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Skoda_Superb_Facelift_rear.jpg"
+    },
+    "description": "Jemně upravená maska a nárazníky, vzadu přepracovaná vnitřní grafika lamp. Proporce dlouhého sedanu zůstávají stejné.",
+    "group": "Evropa",
+    "id": "superb-i-1-sedan"
+  },
+  {
+    "model": "Superb",
+    "generation": "II",
+    "facelift": false,
+    "start": 2008,
+    "end": 2013,
+    "body": "Liftback",
+    "front": {
+      "file": "2009 Skoda Superb Elegance CRTDi Automatic 2.0 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Front.jpg/960px-2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Front.jpg/960px-2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9d/2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Front.jpg"
+    },
+    "rear": {
+      "file": "2009 Skoda Superb Elegance CRTDi Automatic 2.0 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Rear.jpg/960px-2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Rear.jpg/960px-2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/13/2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Rear.jpg"
+    },
+    "description": "Velká příď se světlomety vytaženými vzhůru, zaoblená vysoká záď. Dvojité otevírání Twindoor umožňuje otevřít víko samotné i s oknem.",
+    "group": "Evropa",
+    "id": "superb-ii-0-liftback"
+  },
+  {
+    "model": "Superb",
+    "generation": "II",
+    "facelift": false,
+    "start": 2009,
+    "end": 2013,
+    "body": "Kombi",
+    "front": {
+      "file": "2012 Skoda Superb Elegance TDi CR S-A Estate 2.0 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Front.jpg/960px-2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Front.jpg/960px-2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d8/2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Front.jpg"
+    },
+    "rear": {
+      "file": "2012 Skoda Superb Elegance TDi CR S-A Estate 2.0 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Rear.jpg/960px-2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Rear.jpg/960px-2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9b/2012_Skoda_Superb_Elegance_TDi_CR_S-A_Estate_2.0_Rear.jpg"
+    },
+    "description": "První novodobé kombi Superb má dlouhou střechu a velké hranaté víko. Vpředu oblé světlomety druhé generace, vzadu dělené lampy.",
+    "group": "Evropa",
+    "id": "superb-ii-0-kombi"
+  },
+  {
+    "model": "Superb",
+    "generation": "II",
+    "facelift": true,
+    "start": 2013,
+    "end": 2015,
+    "body": "Liftback",
+    "front": {
+      "file": "2014 Skoda Superb SE TDi CR S-A 2.0 facelift Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Front.jpg/960px-2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Front.jpg/960px-2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Front.jpg"
+    },
+    "rear": {
+      "file": "2014 Skoda Superb SE TDi CR S-A 2.0 facelift Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Rear.jpg/960px-2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Rear.jpg/960px-2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c3/2014_Skoda_Superb_SE_TDi_CR_S-A_2.0_facelift_Rear.jpg"
+    },
+    "description": "Výrazně hranatější příď s novým logem. Největší změna je vzadu: dělené vodorovné lampy zasahují do víka kufru.",
+    "group": "Evropa",
+    "id": "superb-ii-1-liftback"
+  },
+  {
+    "model": "Superb",
+    "generation": "III",
+    "facelift": false,
+    "start": 2015,
+    "end": 2019,
+    "body": "Liftback",
+    "front": {
+      "file": "2019 Skoda Superb SE L Executive TDi 2.0 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Front.jpg/960px-2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Front.jpg/960px-2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Front.jpg"
+    },
+    "rear": {
+      "file": "2019 Skoda Superb SE L Executive TDi 2.0 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Rear.jpg/960px-2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Rear.jpg/960px-2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2019_Skoda_Superb_SE_L_Executive_TDi_2.0_Rear.jpg"
+    },
+    "description": "Široká nízká příď, ostře řezané světlomety a čistší boční plochy. Zezadu široké dělené lampy s výrazným tvarováním.",
+    "group": "Evropa",
+    "id": "superb-iii-0-liftback"
+  },
+  {
+    "model": "Superb",
+    "generation": "III",
+    "facelift": false,
+    "start": 2015,
+    "end": 2019,
+    "body": "Kombi",
+    "front": {
+      "file": "Škoda Superb Combi front.jpg",
+      "author": "Rutger van der Maar",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Superb_Combi_front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/%C5%A0koda_Superb_Combi_front.jpg/960px-%C5%A0koda_Superb_Combi_front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/%C5%A0koda_Superb_Combi_front.jpg/960px-%C5%A0koda_Superb_Combi_front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%C5%A0koda_Superb_Combi_front.jpg"
+    },
+    "rear": {
+      "file": "Škoda Superb Combi rear.jpg",
+      "author": "Rutger van der Maar",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Superb_Combi_rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/%C5%A0koda_Superb_Combi_rear.jpg/960px-%C5%A0koda_Superb_Combi_rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/%C5%A0koda_Superb_Combi_rear.jpg/960px-%C5%A0koda_Superb_Combi_rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/%C5%A0koda_Superb_Combi_rear.jpg"
+    },
+    "description": "Hranaté kombi se širokým postojem a nižšími protáhlými světlomety. Dělené zadní lampy navazují na ostřejší styl celé karoserie.",
+    "group": "Evropa",
+    "id": "superb-iii-0-kombi"
+  },
+  {
+    "model": "Superb",
+    "generation": "III",
+    "facelift": true,
+    "start": 2019,
+    "end": 2024,
+    "body": "Liftback",
+    "front": {
+      "file": "2021 SKODA Superb Ambition sedan silver 2.0 TSI front view in Brunei.jpg",
+      "author": "AIMHO'S REBELLION 8490s",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_front_view_in_Brunei.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_front_view_in_Brunei.jpg/960px-2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_front_view_in_Brunei.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_front_view_in_Brunei.jpg/960px-2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_front_view_in_Brunei.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cb/2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_front_view_in_Brunei.jpg"
+    },
+    "rear": {
+      "file": "2021 SKODA Superb Ambition sedan silver 2.0 TSI rear view in Brunei.jpg",
+      "author": "AIMHO'S REBELLION 8490s",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_rear_view_in_Brunei.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_rear_view_in_Brunei.jpg/960px-2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_rear_view_in_Brunei.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_rear_view_in_Brunei.jpg/960px-2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_rear_view_in_Brunei.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/96/2021_SKODA_Superb_Ambition_sedan_silver_2.0_TSI_rear_view_in_Brunei.jpg"
+    },
+    "description": "Liftback po faceliftu: upravené světlomety a nárazník; vzadu lišta mezi lampami a nápis ŠKODA místo kulatého loga.",
+    "group": "Evropa",
+    "id": "superb-iii-1-liftback"
+  },
+  {
+    "model": "Superb",
+    "generation": "III",
+    "facelift": true,
+    "start": 2019,
+    "end": 2024,
+    "body": "Kombi",
+    "front": {
+      "file": "2022 Škoda Superb SE L 2.0 TDI (Front).jpg",
+      "author": "DieselFordMondeo",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Front%29.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Front%29.jpg/960px-2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Front%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Front%29.jpg/960px-2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Front%29.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ea/2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Front%29.jpg"
+    },
+    "rear": {
+      "file": "2022 Škoda Superb SE L 2.0 TDI (Rear).jpg",
+      "author": "DieselFordMondeo",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Rear%29.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Rear%29.jpg/960px-2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Rear%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Rear%29.jpg/960px-2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Rear%29.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/28/2022_%C5%A0koda_Superb_SE_L_2.0_TDI_%28Rear%29.jpg"
+    },
+    "description": "Kombi po faceliftu: upravená příď, jemnější přední světlomety a lišta propojující zadní lampy. Na víku je místo kulatého znaku nápis ŠKODA.",
+    "group": "Evropa",
+    "id": "superb-iii-1-kombi"
+  },
+  {
+    "model": "Superb",
+    "generation": "IV",
+    "facelift": false,
+    "start": 2024,
+    "end": null,
+    "body": "Liftback",
+    "front": {
+      "file": "2024 Škoda Superb (cropped).jpg",
+      "author": "Rutger van der Maar",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2024_%C5%A0koda_Superb_%28cropped%29.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2024_%C5%A0koda_Superb_%28cropped%29.jpg/960px-2024_%C5%A0koda_Superb_%28cropped%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2024_%C5%A0koda_Superb_%28cropped%29.jpg/960px-2024_%C5%A0koda_Superb_%28cropped%29.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/2024_%C5%A0koda_Superb_%28cropped%29.jpg"
+    },
+    "rear": {
+      "file": "Škoda Superb IV IMG 4524.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Superb_IV_IMG_4524.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/%C5%A0koda_Superb_IV_IMG_4524.jpg/960px-%C5%A0koda_Superb_IV_IMG_4524.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/%C5%A0koda_Superb_IV_IMG_4524.jpg/960px-%C5%A0koda_Superb_IV_IMG_4524.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/66/%C5%A0koda_Superb_IV_IMG_4524.jpg"
+    },
+    "description": "Plynulejší aerodynamická silueta, velmi úzké přední světlomety a široká maska. Zezadu štíhlejší lampy a výrazný nápis ŠKODA.",
+    "group": "Evropa",
+    "id": "superb-iv-0-liftback"
+  },
+  {
+    "model": "Superb",
+    "generation": "IV",
+    "facelift": false,
+    "start": 2024,
+    "end": null,
+    "body": "Kombi",
+    "front": {
+      "file": "Škoda Superb IV Combi Leonberg 2024 IMG 0845.jpg",
+      "author": "Alexander-93",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0845.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0845.jpg/960px-%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0845.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0845.jpg/960px-%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0845.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0845.jpg"
+    },
+    "rear": {
+      "file": "Škoda Superb IV Combi Leonberg 2024 IMG 0849.jpg",
+      "author": "Alexander-93",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0849.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0849.jpg/960px-%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0849.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0849.jpg/960px-%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0849.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/%C5%A0koda_Superb_IV_Combi_Leonberg_2024_IMG_0849.jpg"
+    },
+    "description": "Dlouhé aerodynamické kombi s velmi úzkými předními světlomety a čistšími plochami. Zezadu vodorovné štíhlé lampy a výrazný nápis ŠKODA.",
+    "group": "Evropa",
+    "id": "superb-iv-0-kombi"
+  },
+  {
+    "model": "Rapid",
+    "generation": "I (EU)",
+    "facelift": false,
+    "start": 2012,
+    "end": 2017,
+    "body": "Liftback",
+    "front": {
+      "file": "2014 Skoda Rapid SE Connect TSi 1.2 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2014_Skoda_Rapid_SE_Connect_TSi_1.2_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/2014_Skoda_Rapid_SE_Connect_TSi_1.2_Front.jpg/960px-2014_Skoda_Rapid_SE_Connect_TSi_1.2_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/2014_Skoda_Rapid_SE_Connect_TSi_1.2_Front.jpg/960px-2014_Skoda_Rapid_SE_Connect_TSi_1.2_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2e/2014_Skoda_Rapid_SE_Connect_TSi_1.2_Front.jpg"
+    },
+    "rear": {
+      "file": "2014 Skoda Rapid SE Connect TSi 1.2 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2014_Skoda_Rapid_SE_Connect_TSi_1.2_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/2014_Skoda_Rapid_SE_Connect_TSi_1.2_Rear.jpg/960px-2014_Skoda_Rapid_SE_Connect_TSi_1.2_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/2014_Skoda_Rapid_SE_Connect_TSi_1.2_Rear.jpg/960px-2014_Skoda_Rapid_SE_Connect_TSi_1.2_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2014_Skoda_Rapid_SE_Connect_TSi_1.2_Rear.jpg"
+    },
+    "description": "Úzká a vysoká karoserie s čistými hranami. Přední světla mají jednoduchý obdélníkový tvar; zadní jsou kompaktní a nedělená víkem kufru.",
+    "group": "Evropa",
+    "id": "rapid-i-eu-0-liftback"
+  },
+  {
+    "model": "Rapid",
+    "generation": "I (EU)",
+    "facelift": true,
+    "start": 2017,
+    "end": 2019,
+    "body": "Liftback",
+    "front": {
+      "url": "https://cdn.skoda-storyboard.com/2017/05/Ra_00001-1440x960.jpg",
+      "source": "https://www.skoda-storyboard.com/en/press-kits/skoda-rapid-the-family-favourite/attachment/ra_00001-2/",
+      "author": "Škoda Auto a.s.",
+      "license": "Škoda Storyboard – redakční užití",
+      "licenseUrl": "https://www.skoda-storyboard.com/en/press-kits/skoda-rapid-the-family-favourite/attachment/ra_00001-2/"
+    },
+    "rear": {
+      "url": "https://cdn.skoda-storyboard.com/2017/05/Ra_00019-1440x960.jpg",
+      "source": "https://www.skoda-storyboard.com/en/press-kits/skoda-rapid-the-family-favourite/attachment/ra_00019-2/",
+      "author": "Škoda Auto a.s.",
+      "license": "Škoda Storyboard – redakční užití",
+      "licenseUrl": "https://www.skoda-storyboard.com/en/press-kits/skoda-rapid-the-family-favourite/attachment/ra_00019-2/"
+    },
+    "description": "Nový spodní díl předního nárazníku s upravenými mlhovkami; chromovaná spojovací lišta závisí na výbavě. Zadní lampy mají tmavší kryty a upravenou grafiku.",
+    "group": "Evropa",
+    "id": "rapid-i-eu-1-liftback"
+  },
+  {
+    "model": "Rapid Spaceback",
+    "generation": "I",
+    "facelift": false,
+    "start": 2013,
+    "end": 2017,
+    "body": "Hatchback",
+    "front": {
+      "file": "2016 Škoda Rapid Spaceback.jpg",
+      "author": "KGC626",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2016_%C5%A0koda_Rapid_Spaceback.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/2016_%C5%A0koda_Rapid_Spaceback.jpg/960px-2016_%C5%A0koda_Rapid_Spaceback.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/2016_%C5%A0koda_Rapid_Spaceback.jpg/960px-2016_%C5%A0koda_Rapid_Spaceback.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6f/2016_%C5%A0koda_Rapid_Spaceback.jpg"
+    },
+    "rear": {
+      "file": "2016 Škoda Rapid Spaceback (rear view).jpg",
+      "author": "KGC626",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2016_%C5%A0koda_Rapid_Spaceback_%28rear_view%29.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2016_%C5%A0koda_Rapid_Spaceback_%28rear_view%29.jpg/960px-2016_%C5%A0koda_Rapid_Spaceback_%28rear_view%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2016_%C5%A0koda_Rapid_Spaceback_%28rear_view%29.jpg/960px-2016_%C5%A0koda_Rapid_Spaceback_%28rear_view%29.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/2016_%C5%A0koda_Rapid_Spaceback_%28rear_view%29.jpg"
+    },
+    "description": "Příď téměř shodná s Rapidem liftback, ale podstatně kratší zadní převis. Vysoké a téměř kolmé zadní víko místo dlouhé stupňovité zádě.",
+    "group": "Evropa",
+    "id": "rapid-spaceback-i-0-hatchback"
+  },
+  {
+    "model": "Rapid Spaceback",
+    "generation": "I",
+    "facelift": true,
+    "start": 2017,
+    "end": 2019,
+    "body": "Hatchback",
+    "front": {
+      "file": "2017 Skoda Rapid Spaceback SE Sport 1.0 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Front.jpg/960px-2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Front.jpg/960px-2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/12/2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Front.jpg"
+    },
+    "rear": {
+      "file": "2017 Skoda Rapid Spaceback SE Sport 1.0 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Rear.jpg/960px-2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Rear.jpg/960px-2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0e/2017_Skoda_Rapid_Spaceback_SE_Sport_1.0_Rear.jpg"
+    },
+    "description": "Jemná modernizace předního nárazníku a světel. U této ukázky výbava Sport přidává tmavé detaily, které nejsou společné všem faceliftovaným vozům.",
+    "group": "Evropa",
+    "id": "rapid-spaceback-i-1-hatchback"
+  },
+  {
+    "model": "Scala",
+    "generation": "I",
+    "facelift": false,
+    "start": 2019,
+    "end": 2023,
+    "body": "Hatchback",
+    "market": "Evropa",
+    "front": {
+      "file": "2019 Skoda Scala SE TDi 1.6 Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/2019_Skoda_Scala_SE_TDi_1.6_Front.jpg/960px-2019_Skoda_Scala_SE_TDi_1.6_Front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/83/2019_Skoda_Scala_SE_TDi_1.6_Front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2019_Skoda_Scala_SE_TDi_1.6_Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "rear": {
+      "file": "2019 Skoda Scala SE TDi 1.6 Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/2019_Skoda_Scala_SE_TDi_1.6_Rear.jpg/960px-2019_Skoda_Scala_SE_TDi_1.6_Rear.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/83/2019_Skoda_Scala_SE_TDi_1.6_Rear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2019_Skoda_Scala_SE_TDi_1.6_Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "description": "Nízký hatchback s úzkými trojúhelníkovými předními světly. Zadní svítilny míří do středu a na víku je místo kulatého znaku nápis ŠKODA.",
+    "group": "Evropa",
+    "id": "scala-i-0-hatchback"
+  },
+  {
+    "model": "Scala",
+    "generation": "I",
+    "facelift": true,
+    "start": 2023,
+    "end": null,
+    "body": "Hatchback",
+    "market": "Evropa",
+    "front": {
+      "file": "Skoda Scala 1.5 TSI Tour (Facelift) – f 14022026.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Skoda_Scala_1.5_TSI_Tour_(Facelift)_%E2%80%93_f_14022026.jpg/960px-Skoda_Scala_1.5_TSI_Tour_(Facelift)_%E2%80%93_f_14022026.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Skoda_Scala_1.5_TSI_Tour_(Facelift)_%E2%80%93_f_14022026.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Scala_1.5_TSI_Tour_(Facelift)_%E2%80%93_f_14022026.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "rear": {
+      "file": "Skoda Scala 1.5 TSI Tour (Facelift) – h 14022026.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Skoda_Scala_1.5_TSI_Tour_(Facelift)_%E2%80%93_h_14022026.jpg/960px-Skoda_Scala_1.5_TSI_Tour_(Facelift)_%E2%80%93_h_14022026.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Skoda_Scala_1.5_TSI_Tour_(Facelift)_%E2%80%93_h_14022026.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Scala_1.5_TSI_Tour_(Facelift)_%E2%80%93_h_14022026.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "description": "Ostřejší, užší přední světla a členitější přední nárazník. Vzadu změněná grafika svítilen a spodní část nárazníku; základní silueta zůstala stejná.",
+    "group": "Evropa",
+    "id": "scala-i-1-hatchback"
+  },
+  {
+    "model": "Kamiq",
+    "generation": "I",
+    "facelift": false,
+    "start": 2019,
+    "end": 2023,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "file": "Skoda Kamiq 1.0 TSI DSG Scoutline – f 09022025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Skoda_Kamiq_1.0_TSI_DSG_Scoutline_%E2%80%93_f_09022025.jpg/960px-Skoda_Kamiq_1.0_TSI_DSG_Scoutline_%E2%80%93_f_09022025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Skoda_Kamiq_1.0_TSI_DSG_Scoutline_%E2%80%93_f_09022025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kamiq_1.0_TSI_DSG_Scoutline_%E2%80%93_f_09022025.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "rear": {
+      "file": "Skoda Kamiq 1.0 TSI DSG Scoutline – h 09022025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Skoda_Kamiq_1.0_TSI_DSG_Scoutline_%E2%80%93_h_09022025.jpg/960px-Skoda_Kamiq_1.0_TSI_DSG_Scoutline_%E2%80%93_h_09022025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Skoda_Kamiq_1.0_TSI_DSG_Scoutline_%E2%80%93_h_09022025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kamiq_1.0_TSI_DSG_Scoutline_%E2%80%93_h_09022025.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "description": "Nahoře úzké proužky denního svícení, hlavní světla jsou odděleně pod nimi. Menší SUV s krátkou přídí a zadními světly zasahujícími do víka; snímek ukazuje Scoutline.",
+    "group": "Evropa",
+    "id": "kamiq-i-0-suv"
+  },
+  {
+    "model": "Kamiq",
+    "generation": "I",
+    "facelift": true,
+    "start": 2023,
+    "end": null,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "file": "Skoda Kamiq 1.5 TSI Tour (Facelift) – f 12042026.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Skoda_Kamiq_1.5_TSI_Tour_(Facelift)_%E2%80%93_f_12042026.jpg/960px-Skoda_Kamiq_1.5_TSI_Tour_(Facelift)_%E2%80%93_f_12042026.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Skoda_Kamiq_1.5_TSI_Tour_(Facelift)_%E2%80%93_f_12042026.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kamiq_1.5_TSI_Tour_(Facelift)_%E2%80%93_f_12042026.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "rear": {
+      "file": "Skoda Kamiq 1.5 TSI Tour (Facelift) – h 12042026.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Skoda_Kamiq_1.5_TSI_Tour_(Facelift)_%E2%80%93_h_12042026.jpg/960px-Skoda_Kamiq_1.5_TSI_Tour_(Facelift)_%E2%80%93_h_12042026.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/Skoda_Kamiq_1.5_TSI_Tour_(Facelift)_%E2%80%93_h_12042026.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kamiq_1.5_TSI_Tour_(Facelift)_%E2%80%93_h_12042026.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "description": "Dělená světla zůstala, horní proužky jsou užší a maska výraznější. Přepracované nárazníky dodávají autu robustnější vzhled.",
+    "group": "Evropa",
+    "id": "kamiq-i-1-suv"
+  },
+  {
+    "model": "Karoq",
+    "generation": "I",
+    "facelift": false,
+    "start": 2017,
+    "end": 2021,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "file": "Skoda Karoq – f 18042025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Skoda_Karoq_%E2%80%93_f_18042025.jpg/960px-Skoda_Karoq_%E2%80%93_f_18042025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Skoda_Karoq_%E2%80%93_f_18042025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Karoq_%E2%80%93_f_18042025.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "rear": {
+      "file": "Skoda Karoq – h 18042025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Skoda_Karoq_%E2%80%93_h_18042025.jpg/960px-Skoda_Karoq_%E2%80%93_h_18042025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/Skoda_Karoq_%E2%80%93_h_18042025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Karoq_%E2%80%93_h_18042025.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "description": "Kompaktní SUV s dvojicí hlavních světel a menšími světly pod nimi. Kratší, vzpřímená záď s hranatými svítilnami.",
+    "group": "Evropa",
+    "id": "karoq-i-0-suv"
+  },
+  {
+    "model": "Karoq",
+    "generation": "I",
+    "facelift": true,
+    "start": 2021,
+    "end": null,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "file": "Skoda Karoq Sportline (Facelift) – f 08022026.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Skoda_Karoq_Sportline_(Facelift)_%E2%80%93_f_08022026.jpg/960px-Skoda_Karoq_Sportline_(Facelift)_%E2%80%93_f_08022026.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Skoda_Karoq_Sportline_(Facelift)_%E2%80%93_f_08022026.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Karoq_Sportline_(Facelift)_%E2%80%93_f_08022026.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "rear": {
+      "file": "Skoda Karoq Sportline (Facelift) – h 08022026.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Skoda_Karoq_Sportline_(Facelift)_%E2%80%93_h_08022026.jpg/960px-Skoda_Karoq_Sportline_(Facelift)_%E2%80%93_h_08022026.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Skoda_Karoq_Sportline_(Facelift)_%E2%80%93_h_08022026.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Karoq_Sportline_(Facelift)_%E2%80%93_h_08022026.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "description": "Širší, hranatější maska a užší, zalomené přední světlomety. Nové nárazníky a jemně změněné zadní svítilny; fotografie ukazuje verzi Sportline.",
+    "group": "Evropa",
+    "id": "karoq-i-1-suv"
+  },
+  {
+    "model": "Kodiaq",
+    "generation": "I",
+    "facelift": false,
+    "start": 2016,
+    "end": 2021,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "file": "2017 Škoda Kodiaq 2.0 TDI front left side, Lisbon.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/2017_%C5%A0koda_Kodiaq_2.0_TDI_front_left_side%2C_Lisbon.jpg/960px-2017_%C5%A0koda_Kodiaq_2.0_TDI_front_left_side%2C_Lisbon.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2017_%C5%A0koda_Kodiaq_2.0_TDI_front_left_side%2C_Lisbon.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2017_%C5%A0koda_Kodiaq_2.0_TDI_front_left_side%2C_Lisbon.jpg",
+      "author": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "rear": {
+      "file": "2017 Škoda Kodiaq 2.0 TDI rear left side, Lisbon.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/2017_%C5%A0koda_Kodiaq_2.0_TDI_rear_left_side%2C_Lisbon.jpg/960px-2017_%C5%A0koda_Kodiaq_2.0_TDI_rear_left_side%2C_Lisbon.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7f/2017_%C5%A0koda_Kodiaq_2.0_TDI_rear_left_side%2C_Lisbon.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2017_%C5%A0koda_Kodiaq_2.0_TDI_rear_left_side%2C_Lisbon.jpg",
+      "author": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "description": "Velká hranatá maska a rozdělená přední světla. Vzadu trojúhelníkové svítilny do boků a původně kulatý znak uprostřed víka.",
+    "group": "Evropa",
+    "id": "kodiaq-i-0-suv"
+  },
+  {
+    "model": "Kodiaq",
+    "generation": "I",
+    "facelift": true,
+    "start": 2021,
+    "end": 2024,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "file": "Skoda Kodiaq Facelift 1X7A6161.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Skoda_Kodiaq_Facelift_1X7A6161.jpg/960px-Skoda_Kodiaq_Facelift_1X7A6161.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/06/Skoda_Kodiaq_Facelift_1X7A6161.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kodiaq_Facelift_1X7A6161.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "rear": {
+      "file": "Skoda Kodiaq Facelift Auto Zuerich 2021 IMG 0188.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Skoda_Kodiaq_Facelift_Auto_Zuerich_2021_IMG_0188.jpg/960px-Skoda_Kodiaq_Facelift_Auto_Zuerich_2021_IMG_0188.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/49/Skoda_Kodiaq_Facelift_Auto_Zuerich_2021_IMG_0188.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kodiaq_Facelift_Auto_Zuerich_2021_IMG_0188.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "description": "Užší přední světlomety, výraznější šestiúhelníková maska a pozměněné nárazníky. Vzadu jemně přepracovaná světla a nápis ŠKODA.",
+    "group": "Evropa",
+    "id": "kodiaq-i-1-suv"
+  },
+  {
+    "model": "Kodiaq",
+    "generation": "II",
+    "facelift": false,
+    "start": 2023,
+    "end": null,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "file": "Skoda Kodiaq 1.5 TSI iV Selection (II) – f 01032025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Skoda_Kodiaq_1.5_TSI_iV_Selection_(II)_%E2%80%93_f_01032025.jpg/960px-Skoda_Kodiaq_1.5_TSI_iV_Selection_(II)_%E2%80%93_f_01032025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Skoda_Kodiaq_1.5_TSI_iV_Selection_(II)_%E2%80%93_f_01032025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kodiaq_1.5_TSI_iV_Selection_(II)_%E2%80%93_f_01032025.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "rear": {
+      "file": "Skoda Kodiaq 1.5 TSI iV Selection (II) – h 01032025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Skoda_Kodiaq_1.5_TSI_iV_Selection_(II)_%E2%80%93_h_01032025.jpg/960px-Skoda_Kodiaq_1.5_TSI_iV_Selection_(II)_%E2%80%93_h_01032025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/94/Skoda_Kodiaq_1.5_TSI_iV_Selection_(II)_%E2%80%93_h_01032025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kodiaq_1.5_TSI_iV_Selection_(II)_%E2%80%93_h_01032025.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "description": "Oblejší a delší karoserie, dělené přední světlomety a vysoká maska. Zadní svítilny opticky propojuje pás přes víko; zadní sloupek má výrazné provedení.",
+    "group": "Evropa",
+    "id": "kodiaq-ii-0-suv"
+  },
+  {
+    "model": "Yeti",
+    "generation": "I",
+    "facelift": false,
+    "start": 2009,
+    "end": 2013,
+    "body": "SUV",
+    "front": {
+      "file": "Skoda Yeti 2.0 TDI 4x4 front 20100524.jpg",
+      "author": "M 93",
+      "license": "Attribution",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Yeti_2.0_TDI_4x4_front_20100524.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Skoda_Yeti_2.0_TDI_4x4_front_20100524.jpg/960px-Skoda_Yeti_2.0_TDI_4x4_front_20100524.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Skoda_Yeti_2.0_TDI_4x4_front_20100524.jpg/960px-Skoda_Yeti_2.0_TDI_4x4_front_20100524.jpg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Attribution",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Skoda_Yeti_2.0_TDI_4x4_front_20100524.jpg"
+    },
+    "rear": {
+      "file": "Skoda Yeti 2.0 TDI 4x4 rear 20100524.jpg",
+      "author": "M 93",
+      "license": "Attribution",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Yeti_2.0_TDI_4x4_rear_20100524.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Skoda_Yeti_2.0_TDI_4x4_rear_20100524.jpg/960px-Skoda_Yeti_2.0_TDI_4x4_rear_20100524.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Skoda_Yeti_2.0_TDI_4x4_rear_20100524.jpg/960px-Skoda_Yeti_2.0_TDI_4x4_rear_20100524.jpg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Attribution",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Skoda_Yeti_2.0_TDI_4x4_rear_20100524.jpg"
+    },
+    "description": "Hranaté kompaktní SUV s téměř svislou zádí. Poznávacím znamením původní verze jsou kulatá přídavná světla těsně pod hlavními světlomety.",
+    "group": "Evropa",
+    "id": "yeti-i-0-suv"
+  },
+  {
+    "model": "Yeti",
+    "generation": "I",
+    "facelift": true,
+    "start": 2013,
+    "end": 2017,
+    "body": "SUV",
+    "front": {
+      "file": "2014 Skoda Yeti 4x4 front.jpg",
+      "author": "LuvsMG481",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2014_Skoda_Yeti_4x4_front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/2014_Skoda_Yeti_4x4_front.jpg/960px-2014_Skoda_Yeti_4x4_front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/2014_Skoda_Yeti_4x4_front.jpg/960px-2014_Skoda_Yeti_4x4_front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/2014_Skoda_Yeti_4x4_front.jpg"
+    },
+    "rear": {
+      "file": "2014 Skoda Yeti 4x4 rear.jpg",
+      "author": "LuvsMG481",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2014_Skoda_Yeti_4x4_rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/2014_Skoda_Yeti_4x4_rear.jpg/960px-2014_Skoda_Yeti_4x4_rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/2014_Skoda_Yeti_4x4_rear.jpg/960px-2014_Skoda_Yeti_4x4_rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/2014_Skoda_Yeti_4x4_rear.jpg"
+    },
+    "description": "Zmizela kulatá světla u masky, příď dostala hranatější světlomety a masku. Vzadu upravené lampy; provedení Outdoor má výraznější plastové obložení.",
+    "group": "Evropa",
+    "id": "yeti-i-1-suv"
+  },
+  {
+    "model": "Roomster",
+    "generation": "I",
+    "facelift": false,
+    "start": 2006,
+    "end": 2010,
+    "body": "MPV",
+    "front": {
+      "file": "Skoda Roomster front.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Roomster_front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Skoda_Roomster_front.jpg/960px-Skoda_Roomster_front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Skoda_Roomster_front.jpg/960px-Skoda_Roomster_front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Skoda_Roomster_front.jpg"
+    },
+    "rear": {
+      "file": "Skoda Roomster rear.jpg",
+      "author": "M 93",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Roomster_rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Skoda_Roomster_rear.jpg/960px-Skoda_Roomster_rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Skoda_Roomster_rear.jpg/960px-Skoda_Roomster_rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/21/Skoda_Roomster_rear.jpg"
+    },
+    "description": "Vysoká zadní kabina s velkými bočními okny, skryté zadní kliky a dvě odlišné výšky spodní hrany oken. Přídí navazuje na Fabii II.",
+    "group": "Evropa",
+    "id": "roomster-i-0-mpv"
+  },
+  {
+    "model": "Roomster",
+    "generation": "I",
+    "facelift": true,
+    "start": 2010,
+    "end": 2015,
+    "body": "MPV",
+    "front": {
+      "file": "Skoda Roomster Facelift 1.2 TSI Comfort Plus Edition front 20100529.jpg",
+      "author": "M 93",
+      "license": "Attribution",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_front_20100529.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_front_20100529.jpg/960px-Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_front_20100529.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_front_20100529.jpg/960px-Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_front_20100529.jpg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Attribution",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_front_20100529.jpg"
+    },
+    "rear": {
+      "file": "Skoda Roomster Facelift 1.2 TSI Comfort Plus Edition rear 20100529.jpg",
+      "author": "M 93",
+      "license": "Attribution",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_rear_20100529.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_rear_20100529.jpg/960px-Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_rear_20100529.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_rear_20100529.jpg/960px-Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_rear_20100529.jpg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Attribution",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/09/Skoda_Roomster_Facelift_1.2_TSI_Comfort_Plus_Edition_rear_20100529.jpg"
+    },
+    "description": "Stejná vysoká kabina, ale nová širší maska a přepracovaná světla i přední nárazník. Zadní partie zůstaly téměř beze změn.",
+    "group": "Evropa",
+    "id": "roomster-i-1-mpv"
+  },
+  {
+    "model": "Citigo",
+    "generation": "I",
+    "facelift": false,
+    "start": 2011,
+    "end": 2017,
+    "body": "Hatchback",
+    "front": {
+      "file": "2013 Skoda Citigo Elegance Automatic 1.0 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2013_Skoda_Citigo_Elegance_Automatic_1.0_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/2013_Skoda_Citigo_Elegance_Automatic_1.0_Front.jpg/960px-2013_Skoda_Citigo_Elegance_Automatic_1.0_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/2013_Skoda_Citigo_Elegance_Automatic_1.0_Front.jpg/960px-2013_Skoda_Citigo_Elegance_Automatic_1.0_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/09/2013_Skoda_Citigo_Elegance_Automatic_1.0_Front.jpg"
+    },
+    "rear": {
+      "file": "2013 Skoda Citigo Elegance Automatic 1.0 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2013_Skoda_Citigo_Elegance_Automatic_1.0_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/2013_Skoda_Citigo_Elegance_Automatic_1.0_Rear.jpg/960px-2013_Skoda_Citigo_Elegance_Automatic_1.0_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/2013_Skoda_Citigo_Elegance_Automatic_1.0_Rear.jpg/960px-2013_Skoda_Citigo_Elegance_Automatic_1.0_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/be/2013_Skoda_Citigo_Elegance_Automatic_1.0_Rear.jpg"
+    },
+    "description": "Velmi krátký městský hatchback s vysokou střechou a malou maskou. Zadní lampy jsou úzké, vysoké a stojí po stranách zadního okna.",
+    "group": "Evropa",
+    "id": "citigo-i-0-hatchback"
+  },
+  {
+    "model": "Citigo",
+    "generation": "I",
+    "facelift": true,
+    "start": 2017,
+    "end": 2019,
+    "body": "Hatchback",
+    "front": {
+      "file": "2018 Skoda Citigo SE MPi 1.0 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Skoda_Citigo_SE_MPi_1.0_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/2018_Skoda_Citigo_SE_MPi_1.0_Front.jpg/960px-2018_Skoda_Citigo_SE_MPi_1.0_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/2018_Skoda_Citigo_SE_MPi_1.0_Front.jpg/960px-2018_Skoda_Citigo_SE_MPi_1.0_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8f/2018_Skoda_Citigo_SE_MPi_1.0_Front.jpg"
+    },
+    "rear": {
+      "file": "2018 Skoda Citigo SE MPi 1.0 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Skoda_Citigo_SE_MPi_1.0_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2018_Skoda_Citigo_SE_MPi_1.0_Rear.jpg/960px-2018_Skoda_Citigo_SE_MPi_1.0_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2018_Skoda_Citigo_SE_MPi_1.0_Rear.jpg/960px-2018_Skoda_Citigo_SE_MPi_1.0_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a8/2018_Skoda_Citigo_SE_MPi_1.0_Rear.jpg"
+    },
+    "description": "Přepracovaná kapota, maska a přední nárazník; vůz působí vodorovněji. Vzadu se mění především drobné detaily.",
+    "group": "Evropa",
+    "id": "citigo-i-1-hatchback"
+  },
+  {
+    "model": "Enyaq",
+    "generation": "I",
+    "facelift": false,
+    "start": 2020,
+    "end": 2025,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "file": "2021 Skoda Enyaq IV 80 Loft Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2021_Skoda_Enyaq_IV_80_Loft_Front.jpg/960px-2021_Skoda_Enyaq_IV_80_Loft_Front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2021_Skoda_Enyaq_IV_80_Loft_Front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2021_Skoda_Enyaq_IV_80_Loft_Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "rear": {
+      "file": "2021 Skoda Enyaq IV 80 Loft Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/2021_Skoda_Enyaq_IV_80_Loft_Rear.jpg/960px-2021_Skoda_Enyaq_IV_80_Loft_Rear.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f0/2021_Skoda_Enyaq_IV_80_Loft_Rear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2021_Skoda_Enyaq_IV_80_Loft_Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "description": "Vysoká uzavřená maska napodobující klasickou mřížku a úzké hlavní světlomety. Široká karoserie, vzadu samostatná protáhlá světla a nápis ŠKODA.",
+    "group": "Evropa",
+    "id": "enyaq-i-0-suv"
+  },
+  {
+    "model": "Enyaq",
+    "generation": "I",
+    "facelift": true,
+    "start": 2025,
+    "end": null,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "file": "2025 Skoda Enyaq sportline (facelift) - front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/2025_Skoda_Enyaq_sportline_(facelift)_-_front.jpg/960px-2025_Skoda_Enyaq_sportline_(facelift)_-_front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1c/2025_Skoda_Enyaq_sportline_(facelift)_-_front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2025_Skoda_Enyaq_sportline_(facelift)_-_front.jpg",
+      "author": "Ssu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "rear": {
+      "file": "2025 Skoda Enyaq sportline (facelift) - rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/2025_Skoda_Enyaq_sportline_(facelift)_-_rear.jpg/960px-2025_Skoda_Enyaq_sportline_(facelift)_-_rear.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9f/2025_Skoda_Enyaq_sportline_(facelift)_-_rear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2025_Skoda_Enyaq_sportline_(facelift)_-_rear.jpg",
+      "author": "Ssu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "description": "Příď Tech-Deck Face: černý pás a úzká horní světla, hlavní světlomety níže. Na kapotě je nápis ŠKODA; zadní silueta se změnila méně. Snímky ukazují Sportline.",
+    "group": "Evropa",
+    "id": "enyaq-i-1-suv"
+  },
+  {
+    "model": "Enyaq Coupé",
+    "generation": "I",
+    "facelift": false,
+    "start": 2022,
+    "end": 2025,
+    "body": "SUV kupé",
+    "market": "Evropa",
+    "front": {
+      "file": "Skoda Enyaq Coupe iV RS - front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Skoda_Enyaq_Coupe_iV_RS_-_front.jpg/960px-Skoda_Enyaq_Coupe_iV_RS_-_front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Skoda_Enyaq_Coupe_iV_RS_-_front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Enyaq_Coupe_iV_RS_-_front.jpg",
+      "author": "Ssu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "rear": {
+      "file": "Skoda Enyaq Coupe iV RS - rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Skoda_Enyaq_Coupe_iV_RS_-_rear.jpg/960px-Skoda_Enyaq_Coupe_iV_RS_-_rear.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/99/Skoda_Enyaq_Coupe_iV_RS_-_rear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Enyaq_Coupe_iV_RS_-_rear.jpg",
+      "author": "Ssu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "description": "Příď je příbuzná původnímu Enyaqu, ale střecha výrazně klesá dozadu. Záď je nižší, s menším zadním oknem; fotografie ukazují verzi RS.",
+    "group": "Evropa",
+    "id": "enyaq-coupe-i-0-suv-kupe"
+  },
+  {
+    "model": "Enyaq Coupé",
+    "generation": "I",
+    "facelift": true,
+    "start": 2025,
+    "end": null,
+    "body": "SUV kupé",
+    "market": "Evropa",
+    "front": {
+      "file": "2025 Škoda Enyaq Coupé DSC 8402.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/2025_%C5%A0koda_Enyaq_Coup%C3%A9_DSC_8402.jpg/960px-2025_%C5%A0koda_Enyaq_Coup%C3%A9_DSC_8402.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/2025_%C5%A0koda_Enyaq_Coup%C3%A9_DSC_8402.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2025_%C5%A0koda_Enyaq_Coup%C3%A9_DSC_8402.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "rear": {
+      "file": "2025 Skoda Enyaq iV coupe - rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/2025_Skoda_Enyaq_iV_coupe_-_rear.jpg/960px-2025_Skoda_Enyaq_iV_coupe_-_rear.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cd/2025_Skoda_Enyaq_iV_coupe_-_rear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2025_Skoda_Enyaq_iV_coupe_-_rear.jpg",
+      "author": "Ssu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "description": "Facelift přidává příď Tech-Deck Face s černým pásem a oddělenými úzkými světly. Střecha klesá do nízké zádě jako u původního Coupé; na kapotě je nyní nápis Škoda.",
+    "group": "Evropa",
+    "id": "enyaq-coupe-i-1-suv-kupe"
+  },
+  {
+    "model": "Elroq",
+    "generation": "I",
+    "facelift": false,
+    "start": 2024,
+    "end": null,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "file": "Skoda Elroq 85 – f 09022025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Skoda_Elroq_85_%E2%80%93_f_09022025.jpg/960px-Skoda_Elroq_85_%E2%80%93_f_09022025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Skoda_Elroq_85_%E2%80%93_f_09022025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Elroq_85_%E2%80%93_f_09022025.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "rear": {
+      "file": "Skoda Elroq 85 – h 09022025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Skoda_Elroq_85_%E2%80%93_h_09022025.jpg/960px-Skoda_Elroq_85_%E2%80%93_h_09022025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/94/Skoda_Elroq_85_%E2%80%93_h_09022025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Elroq_85_%E2%80%93_h_09022025.jpg",
+      "author": "© M 93",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "description": "Kompaktní elektrické SUV s černým pásem Tech-Deck Face místo tradiční masky. Úzká horní světla, oddělené hlavní světlomety a poměrně vzpřímená záď.",
+    "group": "Evropa",
+    "id": "elroq-i-0-suv"
+  },
+  {
+    "model": "Epiq",
+    "generation": "I",
+    "facelift": false,
+    "start": 2026,
+    "end": null,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "file": "2026 Skoda Epiq, white (9).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2026_Skoda_Epiq%2C_white_(9).jpg/960px-2026_Skoda_Epiq%2C_white_(9).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2026_Skoda_Epiq%2C_white_(9).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2026_Skoda_Epiq%2C_white_(9).jpg",
+      "author": "Ssu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "rear": {
+      "file": "2026 Skoda Epiq, white (5).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2026_Skoda_Epiq%2C_white_(5).jpg/960px-2026_Skoda_Epiq%2C_white_(5).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0e/2026_Skoda_Epiq%2C_white_(5).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2026_Skoda_Epiq%2C_white_(5).jpg",
+      "author": "Ssu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "description": "Malé elektrické SUV s hranatou karoserií a světly ve tvaru T. Na obou koncích má výrazné černé prvky, nápis ŠKODA a svislé otvory v nárazníku.",
+    "group": "Evropa",
+    "id": "epiq-i-0-suv"
+  },
+  {
+    "model": "Peaq",
+    "generation": "I",
+    "facelift": false,
+    "start": 2026,
+    "end": null,
+    "body": "SUV",
+    "market": "Evropa",
+    "front": {
+      "url": "https://cdn.skoda-storyboard.com/2026/08/005_Skoda_Peaq_5f1f18cc-1440x960.jpg",
+      "original": "https://cdn.skoda-storyboard.com/2026/08/005_Skoda_Peaq_5f1f18cc-1440x960.jpg",
+      "source": "https://www.skoda-storyboard.com/en/005_skoda_peaq_5f1f18cc/",
+      "author": "© Škoda Auto a.s.",
+      "license": "Oficiální tisková fotografie – externí vložení",
+      "licenseUrl": "https://www.skoda-storyboard.com/en/copyright/"
+    },
+    "rear": {
+      "url": "https://cdn.skoda-storyboard.com/2026/08/006_Skoda_Peaq_fe4e4da0-1440x960.jpg",
+      "original": "https://cdn.skoda-storyboard.com/2026/08/006_Skoda_Peaq_fe4e4da0-1440x960.jpg",
+      "source": "https://www.skoda-storyboard.com/?attachment_id=451018",
+      "author": "© Škoda Auto a.s.",
+      "license": "Oficiální tisková fotografie – externí vložení",
+      "licenseUrl": "https://www.skoda-storyboard.com/en/copyright/"
+    },
+    "description": "Velké elektrické SUV s vysokými boky, širokými zadními sloupky a zapuštěnými klikami. Na přídi i zádi používá světla ve tvaru T, leskle černé pásy a motiv obdélníkového rámu.",
+    "group": "Evropa",
+    "id": "peaq-i-0-suv"
+  },
+  {
+    "model": "Favorit",
+    "generation": "I",
+    "facelift": false,
+    "start": 1987,
+    "end": 1993,
+    "body": "Hatchback",
+    "front": {
+      "file": "Skoda Favorit 136 L front.jpg",
+      "author": "Ludek",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Favorit_136_L_front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Skoda_Favorit_136_L_front.jpg/960px-Skoda_Favorit_136_L_front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Skoda_Favorit_136_L_front.jpg/960px-Skoda_Favorit_136_L_front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Skoda_Favorit_136_L_front.jpg"
+    },
+    "rear": {
+      "file": "Skoda Favorit 136 L back.jpg",
+      "author": "Ludek",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Favorit_136_L_back.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Skoda_Favorit_136_L_back.jpg/960px-Skoda_Favorit_136_L_back.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Skoda_Favorit_136_L_back.jpg/960px-Skoda_Favorit_136_L_back.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Skoda_Favorit_136_L_back.jpg"
+    },
+    "description": "Hranatá karoserie od Bertoneho, jednoduché pravoúhlé světlomety a černé plastové nárazníky. Zadní světla tvoří vodorovné obdélníky.",
+    "group": "Evropa",
+    "id": "favorit-i-0-hatchback"
+  },
+  {
+    "model": "Favorit",
+    "generation": "I",
+    "facelift": true,
+    "start": 1993,
+    "end": 1994,
+    "body": "Hatchback",
+    "front": {
+      "file": "1993 Skoda Favorit LXi Plus 1.3 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1993_Skoda_Favorit_LXi_Plus_1.3_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/1993_Skoda_Favorit_LXi_Plus_1.3_Front.jpg/960px-1993_Skoda_Favorit_LXi_Plus_1.3_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/1993_Skoda_Favorit_LXi_Plus_1.3_Front.jpg/960px-1993_Skoda_Favorit_LXi_Plus_1.3_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/ad/1993_Skoda_Favorit_LXi_Plus_1.3_Front.jpg"
+    },
+    "rear": {
+      "file": "1993 Skoda Favorit LXi Plus 1.3 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1993_Skoda_Favorit_LXi_Plus_1.3_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/1993_Skoda_Favorit_LXi_Plus_1.3_Rear.jpg/960px-1993_Skoda_Favorit_LXi_Plus_1.3_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/1993_Skoda_Favorit_LXi_Plus_1.3_Rear.jpg/960px-1993_Skoda_Favorit_LXi_Plus_1.3_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/1993_Skoda_Favorit_LXi_Plus_1.3_Rear.jpg"
+    },
+    "description": "Novější maska má logo uprostřed, změnily se nárazníky a řada drobných detailů. Charakteristická hranatá silueta zůstala zachovaná.",
+    "group": "Evropa",
+    "id": "favorit-i-1-hatchback"
+  },
+  {
+    "model": "Felicia",
+    "generation": "I (novodobá)",
+    "facelift": false,
+    "start": 1994,
+    "end": 1998,
+    "body": "Hatchback",
+    "front": {
+      "file": "Skoda Felicia front 20070920.jpg",
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Felicia_front_20070920.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Skoda_Felicia_front_20070920.jpg/960px-Skoda_Felicia_front_20070920.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Skoda_Felicia_front_20070920.jpg/960px-Skoda_Felicia_front_20070920.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/51/Skoda_Felicia_front_20070920.jpg"
+    },
+    "rear": {
+      "file": "Skoda Felicia rear 20070920.jpg",
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Felicia_rear_20070920.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Skoda_Felicia_rear_20070920.jpg/960px-Skoda_Felicia_rear_20070920.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Skoda_Felicia_rear_20070920.jpg/960px-Skoda_Felicia_rear_20070920.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Skoda_Felicia_rear_20070920.jpg"
+    },
+    "description": "Zaoblenější nástupce Favoritu s malou úzkou maskou a nízkými obdélníkovými světlomety. Jednoduché téměř svislé víko kufru.",
+    "group": "Evropa",
+    "id": "felicia-i-novodoba-0-hatchback"
+  },
+  {
+    "model": "Felicia",
+    "generation": "I (novodobá)",
+    "facelift": true,
+    "start": 1998,
+    "end": 2001,
+    "body": "Hatchback",
+    "front": {
+      "file": "Skoda Felicia Friend.JPG",
+      "author": "Thomas doerfer",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Felicia_Friend.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Skoda_Felicia_Friend.JPG/960px-Skoda_Felicia_Friend.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Skoda_Felicia_Friend.JPG/960px-Skoda_Felicia_Friend.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Skoda_Felicia_Friend.JPG"
+    },
+    "rear": {
+      "file": "Skoda Felicia Friend Heck.JPG",
+      "author": "Thomas doerfer",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Felicia_Friend_Heck.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Skoda_Felicia_Friend_Heck.JPG/960px-Skoda_Felicia_Friend_Heck.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Skoda_Felicia_Friend_Heck.JPG/960px-Skoda_Felicia_Friend_Heck.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/38/Skoda_Felicia_Friend_Heck.JPG"
+    },
+    "description": "Výrazně větší maska s chromovaným rámem ve stylu Octavie a jiný přední nárazník. Zadní část se změnila podstatně méně.",
+    "group": "Evropa",
+    "id": "felicia-i-novodoba-1-hatchback"
+  },
+  {
+    "model": "Felicia Fun",
+    "generation": "I",
+    "facelift": false,
+    "start": 1997,
+    "end": 2001,
+    "body": "pick-up",
+    "front": {
+      "file": "1999 Skoda Felicia FUN 1.6 Front.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1999_Skoda_Felicia_FUN_1.6_Front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/1999_Skoda_Felicia_FUN_1.6_Front.jpg/960px-1999_Skoda_Felicia_FUN_1.6_Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/1999_Skoda_Felicia_FUN_1.6_Front.jpg/960px-1999_Skoda_Felicia_FUN_1.6_Front.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/78/1999_Skoda_Felicia_FUN_1.6_Front.jpg"
+    },
+    "rear": {
+      "file": "1999 Skoda Felicia FUN 1.6 Rear.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1999_Skoda_Felicia_FUN_1.6_Rear.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/1999_Skoda_Felicia_FUN_1.6_Rear.jpg/960px-1999_Skoda_Felicia_FUN_1.6_Rear.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/1999_Skoda_Felicia_FUN_1.6_Rear.jpg/960px-1999_Skoda_Felicia_FUN_1.6_Rear.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ea/1999_Skoda_Felicia_FUN_1.6_Rear.jpg"
+    },
+    "description": "Žlutý volnočasový pickup s výraznými barevnými nárazníky a ochranným rámem. Posuvná zadní stěna kabiny umožňuje vysunout dvě další sedadla do ložné plochy.",
+    "group": "Evropa",
+    "id": "felicia-fun-i-0-pick-up"
+  },
+  {
+    "model": "Forman",
+    "generation": "I",
+    "facelift": true,
+    "start": 1993,
+    "end": 1995,
+    "body": "Kombi",
+    "front": {
+      "file": "1994 Škoda Forman (1).jpg",
+      "author": "Dogs.barking.duster.rolling",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1994_%C5%A0koda_Forman_%281%29.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/1994_%C5%A0koda_Forman_%281%29.jpg/960px-1994_%C5%A0koda_Forman_%281%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/1994_%C5%A0koda_Forman_%281%29.jpg/960px-1994_%C5%A0koda_Forman_%281%29.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/97/1994_%C5%A0koda_Forman_%281%29.jpg"
+    },
+    "rear": {
+      "file": "1994 Škoda Forman (2).jpg",
+      "author": "Dogs.barking.duster.rolling",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1994_%C5%A0koda_Forman_%282%29.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/1994_%C5%A0koda_Forman_%282%29.jpg/960px-1994_%C5%A0koda_Forman_%282%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/1994_%C5%A0koda_Forman_%282%29.jpg/960px-1994_%C5%A0koda_Forman_%282%29.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9c/1994_%C5%A0koda_Forman_%282%29.jpg"
+    },
+    "description": "Kombi odvozené od Favoritu: stejná hranatá příď, delší střecha a větší zadní převis. Verze po modernizaci 1993 má logo uprostřed masky.",
+    "group": "Evropa",
+    "id": "forman-i-1-kombi"
+  },
+  {
+    "model": "Pick-up",
+    "generation": "Felicia",
+    "facelift": false,
+    "start": 1995,
+    "end": 2001,
+    "body": "pick-up",
+    "front": {
+      "file": "2000 Skoda Pickup LX 1.9 D (Front).jpg",
+      "author": "PlasticBodyPanels",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2000_Skoda_Pickup_LX_1.9_D_%28Front%29.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/2000_Skoda_Pickup_LX_1.9_D_%28Front%29.jpg/960px-2000_Skoda_Pickup_LX_1.9_D_%28Front%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/2000_Skoda_Pickup_LX_1.9_D_%28Front%29.jpg/960px-2000_Skoda_Pickup_LX_1.9_D_%28Front%29.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/2000_Skoda_Pickup_LX_1.9_D_%28Front%29.jpg"
+    },
+    "rear": {
+      "file": "2000 Skoda Pickup LX 1.9 D (Rear).jpg",
+      "author": "PlasticBodyPanels",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2000_Skoda_Pickup_LX_1.9_D_%28Rear%29.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/2000_Skoda_Pickup_LX_1.9_D_%28Rear%29.jpg/960px-2000_Skoda_Pickup_LX_1.9_D_%28Rear%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/2000_Skoda_Pickup_LX_1.9_D_%28Rear%29.jpg/960px-2000_Skoda_Pickup_LX_1.9_D_%28Rear%29.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4a/2000_Skoda_Pickup_LX_1.9_D_%28Rear%29.jpg"
+    },
+    "description": "Dvoumístná kabina s přídí původní Felicie a oddělenou otevřenou ložnou plochou. Pozor: pickup si ponechal původní příď i po faceliftu osobní Felicie v roce 1998.",
+    "group": "Evropa",
+    "id": "pick-up-felicia-0-pick-up"
+  },
+  {
+    "model": "Praktik",
+    "generation": "Roomster",
+    "facelift": false,
+    "start": 2007,
+    "end": 2010,
+    "body": "dodávka",
+    "front": {
+      "file": "Skoda Praktik 1.4 TDI Brilliantsilber.JPG",
+      "author": "Thomas doerfer",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Praktik_1.4_TDI_Brilliantsilber.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Skoda_Praktik_1.4_TDI_Brilliantsilber.JPG/960px-Skoda_Praktik_1.4_TDI_Brilliantsilber.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Skoda_Praktik_1.4_TDI_Brilliantsilber.JPG/960px-Skoda_Praktik_1.4_TDI_Brilliantsilber.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/62/Skoda_Praktik_1.4_TDI_Brilliantsilber.JPG"
+    },
+    "rear": {
+      "file": "Skoda Praktik 1.4 TDI Brilliantsilber Heck.JPG",
+      "author": "Thomas doerfer",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Praktik_1.4_TDI_Brilliantsilber_Heck.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Skoda_Praktik_1.4_TDI_Brilliantsilber_Heck.JPG/960px-Skoda_Praktik_1.4_TDI_Brilliantsilber_Heck.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Skoda_Praktik_1.4_TDI_Brilliantsilber_Heck.JPG/960px-Skoda_Praktik_1.4_TDI_Brilliantsilber_Heck.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/af/Skoda_Praktik_1.4_TDI_Brilliantsilber_Heck.JPG"
+    },
+    "description": "Užitková verze Roomsteru. Příď odpovídá osobnímu modelu, nejvíce ji odlišují zaslepená boční okna nákladového prostoru.",
+    "group": "Evropa",
+    "id": "praktik-roomster-0-dodavka"
+  },
+  {
+    "model": "100 / 110",
+    "generation": "100",
+    "facelift": false,
+    "start": 1969,
+    "end": 1977,
+    "body": "Sedan",
+    "front": {
+      "file": "Skoda 100 bright front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Skoda_100_bright_front.jpg/960px-Skoda_100_bright_front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_100_bright_front.jpg",
+      "author": "Ludek",
+      "license": "CC BY-SA 3.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Skoda_100_bright_front.jpg"
+    },
+    "rear": {
+      "file": "Skoda 100 bright back.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Skoda_100_bright_back.jpg/960px-Skoda_100_bright_back.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_100_bright_back.jpg",
+      "author": "Ludek",
+      "license": "CC BY-SA 3.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/48/Skoda_100_bright_back.jpg"
+    },
+    "description": "Hranatější nástupce tisícovky: nízká příď s kulatými světly, jednoduché rovné boky a malé zadní svítilny.",
+    "note": "Reprezentativní fotografie modelu 100; typ 110 se liší také výbavou a motorem.",
+    "era": "historické",
+    "needsVisualVerification": false,
+    "group": "Historické",
+    "id": "100-110-100-0-sedan"
+  },
+  {
+    "model": "1000 MB",
+    "generation": "1000 MB",
+    "facelift": false,
+    "start": 1964,
+    "end": 1969,
+    "body": "Sedan",
+    "front": {
+      "file": "Skoda 1000MB front.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Skoda_1000MB_front.jpg/960px-Skoda_1000MB_front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_1000MB_front.jpg",
+      "author": "Ludek",
+      "license": "CC BY-SA 3.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Skoda_1000MB_front.jpg"
+    },
+    "rear": {
+      "file": "Skoda 1000MB back.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Skoda_1000MB_back.jpg/960px-Skoda_1000MB_back.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_1000MB_back.jpg",
+      "author": "Ludek",
+      "license": "CC BY-SA 3.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Skoda_1000MB_back.jpg"
+    },
+    "description": "Oblá samonosná karoserie, kulatá přední světla a boční mřížky přivádějící vzduch k motoru vzadu.",
+    "note": "Na fotografiích pozdní provedení, přední fotografie označena jako model 1969. Kola na přední fotografii nejsou původní. Nejde o úplný soupis ročních modernizací.",
+    "era": "historické",
+    "needsVisualVerification": false,
+    "group": "Historické",
+    "id": "1000-mb-1000-mb-0-sedan"
+  },
+  {
+    "model": "105 / 120",
+    "generation": "742 (120 L)",
+    "facelift": false,
+    "start": 1976,
+    "end": 1983,
+    "body": "Sedan",
+    "front": {
+      "file": "Škoda 120L 1978 žlutá2.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%C5%A0koda_120L_1978_%C5%BElut%C3%A12.JPG/960px-%C5%A0koda_120L_1978_%C5%BElut%C3%A12.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_120L_1978_%C5%BElut%C3%A12.JPG",
+      "author": "Jiří Erben",
+      "license": "CC BY-SA 3.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/%C5%A0koda_120L_1978_%C5%BElut%C3%A12.JPG"
+    },
+    "rear": {
+      "file": "Skoda 120 L red back.jpg",
+      "author": "Ludek",
+      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Skoda_120_L_red_back.jpg/960px-Skoda_120_L_red_back.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_120_L_red_back.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Skoda_120_L_red_back.jpg"
+    },
+    "description": "Původní úzká karoserie s kulatými světlomety a svislými zadními svítilnami. V průběhu výroby se měnily masky a světla podle výbavy.",
+    "note": "Fotografie ukazují různé vozy: vpředu původní provedení 1976–1979, vzadu starší typ se svislými svítilnami. Vnější zrcátko žlutého vozu není původní.",
+    "era": "historické",
+    "needsVisualVerification": false,
+    "group": "Historické",
+    "id": "105-120-742-120-l-0-sedan"
+  },
+  {
+    "model": "105 / 120",
+    "generation": "742 M (105 S)",
+    "facelift": true,
+    "start": 1983,
+    "end": 1990,
+    "body": "Sedan",
+    "front": {
+      "file": "Skoda 105S (1983-1988) - przód.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Skoda_105S_%281983-1988%29_-_prz%C3%B3d.jpg/960px-Skoda_105S_%281983-1988%29_-_prz%C3%B3d.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_105S_%281983-1988%29_-_prz%C3%B3d.jpg",
+      "author": "Kasper.1996",
+      "license": "CC BY-SA 4.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Skoda_105S_%281983-1988%29_-_prz%C3%B3d.jpg"
+    },
+    "rear": {
+      "file": "Skoda 105S (1983-1988) - tył.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Skoda_105S_%281983-1988%29_-_ty%C5%82.jpg/960px-Skoda_105S_%281983-1988%29_-_ty%C5%82.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_105S_%281983-1988%29_-_ty%C5%82.jpg",
+      "author": "Kasper.1996",
+      "license": "CC BY-SA 4.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/38/Skoda_105S_%281983-1988%29_-_ty%C5%82.jpg"
+    },
+    "description": "Modernizace M přidala novou příď, velká vodorovná zadní světla a širší postoj. Světlomety se podle roku a výbavy liší.",
+    "note": "Fotografie představují konkrétně 105 S z období 1983–1988. Řada 120 pokračovala déle, proto jde o společnou vzhledovou rodinu, ne totožnou výbavu.",
+    "era": "historické",
+    "needsVisualVerification": false,
+    "group": "Historické",
+    "id": "105-120-742-m-105-s-1-sedan"
+  },
+  {
+    "model": "110 R",
+    "generation": "110 R",
+    "facelift": false,
+    "start": 1970,
+    "end": 1980,
+    "body": "kupé",
+    "front": {
+      "file": "Škoda 110 R (front).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/%C5%A0koda_110_R_%28front%29.jpg/960px-%C5%A0koda_110_R_%28front%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_110_R_%28front%29.jpg",
+      "author": "Fiver, der Hellseher",
+      "license": "CC BY-SA 4.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/%C5%A0koda_110_R_%28front%29.jpg"
+    },
+    "rear": {
+      "file": "Škoda 110 R (rear).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/%C5%A0koda_110_R_%28rear%29.jpg/960px-%C5%A0koda_110_R_%28rear%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_110_R_%28rear%29.jpg",
+      "author": "Fiver, der Hellseher",
+      "license": "CC BY-SA 4.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%C5%A0koda_110_R_%28rear%29.jpg"
+    },
+    "description": "Dvoudveřové kupé se šikmým zadním oknem, nízkou střechou a výdechy v zadních sloupcích. Pozdější provedení má čtyři kulaté světlomety.",
+    "note": "Fotografie ukazují pozdější provedení se čtyřmi světlomety; nejde o ranou dvousvětlovou verzi.",
+    "era": "historické",
+    "needsVisualVerification": false,
+    "group": "Historické",
+    "id": "110-r-110-r-0-kupe"
+  },
+  {
+    "model": "130 / 135 / 136",
+    "generation": "742 M",
+    "facelift": false,
+    "start": 1984,
+    "end": 1990,
+    "body": "Sedan",
+    "front": {
+      "file": "Skoda S130 Estelle Limousine.jpg",
+      "author": "andreboeni (Andrew Bone)",
+      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Skoda_S130_Estelle_Limousine.jpg/960px-Skoda_S130_Estelle_Limousine.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_S130_Estelle_Limousine.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/73/Skoda_S130_Estelle_Limousine.jpg"
+    },
+    "rear": {
+      "file": "Skoda S130 Estelle Limousine - 30889422291.jpg",
+      "author": "andreboeni (Andrew Bone)",
+      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Skoda_S130_Estelle_Limousine_-_30889422291.jpg/960px-Skoda_S130_Estelle_Limousine_-_30889422291.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_S130_Estelle_Limousine_-_30889422291.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Skoda_S130_Estelle_Limousine_-_30889422291.jpg"
+    },
+    "description": "Pozdní rodina sedanů s motorem vzadu: hranatá příď, široké vodorovné zadní svítilny a černé plastové nárazníky. Rozdíly mezi 130, 135 a 136 jsou hlavně technické a ve výbavě.",
+    "note": "Fotografie stejného vozu představují typ 130 (exportní označení Estelle). Provedení světlometů, masky a dalších detailů se v řadě měnilo podle roku a výbavy; na tomto voze jsou výstavní doplňky.",
+    "era": "historické",
+    "needsVisualVerification": false,
+    "group": "Historické",
+    "id": "130-135-136-742-m-0-sedan"
+  },
+  {
+    "model": "440 / 445 Spartak",
+    "generation": "440",
+    "facelift": false,
+    "start": 1955,
+    "end": 1959,
+    "body": "tudor",
+    "front": {
+      "file": "Skoda440MBbyAlofok (2).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Skoda440MBbyAlofok_%282%29.jpg/960px-Skoda440MBbyAlofok_%282%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda440MBbyAlofok_%282%29.jpg",
+      "author": "Alofok",
+      "license": "CC BY-SA 3.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Skoda440MBbyAlofok_%282%29.jpg"
+    },
+    "rear": {
+      "file": "Skoda 440 Spartak - Moto Show Boguchwała 2026 (62).jpg",
+      "author": "Zbigniew Czernik",
+      "license": "CC BY 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Skoda_440_Spartak_-_Moto_Show_Boguchwa%C5%82a_2026_%2862%29.jpg/960px-Skoda_440_Spartak_-_Moto_Show_Boguchwa%C5%82a_2026_%2862%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_440_Spartak_-_Moto_Show_Boguchwa%C5%82a_2026_%2862%29.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Skoda_440_Spartak_-_Moto_Show_Boguchwa%C5%82a_2026_%2862%29.jpg"
+    },
+    "description": "Zaoblený dvoudveřový vůz s kulatými světly, výraznou chromovanou maskou a nárazníky.",
+    "note": "Fotografie ukazují různé vozy. Na zadním snímku je otevřené víko zavazadlového prostoru.",
+    "era": "historické",
+    "needsVisualVerification": false,
+    "group": "Historické",
+    "id": "440-445-spartak-440-0-tudor"
+  },
+  {
+    "model": "Felicia (1959)",
+    "generation": "historická Felicia",
+    "facelift": false,
+    "start": 1959,
+    "end": 1964,
+    "body": "Roadster",
+    "front": {
+      "file": "Škoda Felicia (1959 - 1964) Bild 1.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/%C5%A0koda_Felicia_%281959_-_1964%29_Bild_1.JPG/960px-%C5%A0koda_Felicia_%281959_-_1964%29_Bild_1.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Felicia_%281959_-_1964%29_Bild_1.JPG",
+      "author": "Mattes",
+      "license": "CC BY 2.0 DE",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/dc/%C5%A0koda_Felicia_%281959_-_1964%29_Bild_1.JPG"
+    },
+    "rear": {
+      "file": "Škoda Felicia (1959 - 1964) Bild 2.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/%C5%A0koda_Felicia_%281959_-_1964%29_Bild_2.JPG/960px-%C5%A0koda_Felicia_%281959_-_1964%29_Bild_2.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Felicia_%281959_-_1964%29_Bild_2.JPG",
+      "author": "Mattes",
+      "license": "CC BY 2.0 DE",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/%C5%A0koda_Felicia_%281959_-_1964%29_Bild_2.JPG"
+    },
+    "description": "Otevřená dvoudveřová karoserie, kulaté světlomety, chromované nárazníky a zaoblené blatníky.",
+    "note": "Historický roadster, nikoli Felicia z 90. let. Zadní snímek je vysoký, pro zobrazení použít object-fit:contain.",
+    "era": "historické",
+    "needsVisualVerification": false,
+    "group": "Historické",
+    "id": "felicia-1959-historicka-felicia-0-roadster"
+  },
+  {
+    "model": "Garde",
+    "generation": "Garde",
+    "facelift": false,
+    "start": 1981,
+    "end": 1984,
+    "body": "kupé",
+    "front": {
+      "file": "Garde Front.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Garde_Front.JPG/960px-Garde_Front.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Garde_Front.JPG",
+      "author": "Ondrej Ertl",
+      "license": "CC BY 2.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Garde_Front.JPG"
+    },
+    "rear": {
+      "file": "Garde Rear.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Garde_Rear.JPG/960px-Garde_Rear.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Garde_Rear.JPG",
+      "author": "Ondrej Ertl",
+      "license": "CC BY 2.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Garde_Rear.JPG"
+    },
+    "description": "Hranaté kupé: velká boční okna, ostrá příď a černé nárazníky. Zadní okno plynule klesá k víku motoru.",
+    "note": "Na obou fotografiích Škoda Garde z roku 1982.",
+    "era": "historické",
+    "needsVisualVerification": false,
+    "group": "Historické",
+    "id": "garde-garde-0-kupe"
+  },
+  {
+    "model": "Octavia (1959)",
+    "generation": "historická Octavia",
+    "facelift": false,
+    "start": 1959,
+    "end": 1964,
+    "body": "tudor",
+    "front": {
+      "file": "Skoda Octavia (1959) at IAA 2019 IMG 0271.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Skoda_Octavia_%281959%29_at_IAA_2019_IMG_0271.jpg/960px-Skoda_Octavia_%281959%29_at_IAA_2019_IMG_0271.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_%281959%29_at_IAA_2019_IMG_0271.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/53/Skoda_Octavia_%281959%29_at_IAA_2019_IMG_0271.jpg"
+    },
+    "rear": {
+      "file": "Škoda Octavia 985 IAA 2019 JM 0340.jpg",
+      "author": "Johannes Maximilian",
+      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/%C5%A0koda_Octavia_985_IAA_2019_JM_0340.jpg/960px-%C5%A0koda_Octavia_985_IAA_2019_JM_0340.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Octavia_985_IAA_2019_JM_0340.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/%C5%A0koda_Octavia_985_IAA_2019_JM_0340.jpg"
+    },
+    "description": "Původní Octavia má oblé tvary, kulaté světlomety a oválnou masku s příčnou lištou. Záď je hladká s malými svislými svítilnami.",
+    "note": "Na obou snímcích stejný výstavní vůz Octavia 1959, tedy původní vzhled. Celá historická řada se vyráběla 1959–1964 (kombi do 1971); modernizace 1961 se zadními křidélky zde není samostatně nafocena.",
+    "era": "historické",
+    "needsVisualVerification": false,
+    "group": "Historické",
+    "id": "octavia-1959-historicka-octavia-0-tudor"
+  },
+  {
+    "model": "Rapid (1984)",
+    "generation": "743",
+    "facelift": false,
+    "start": 1984,
+    "end": 1990,
+    "body": "kupé",
+    "front": {
+      "file": "1985SkodaRapid1.jpg",
+      "author": "Entheta",
+      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/1985SkodaRapid1.jpg/960px-1985SkodaRapid1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:1985SkodaRapid1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c9/1985SkodaRapid1.jpg"
+    },
+    "rear": {
+      "file": "1985SkodaRapid2.jpg",
+      "author": "Entheta",
+      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/1985SkodaRapid2.jpg/960px-1985SkodaRapid2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:1985SkodaRapid2.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/08/1985SkodaRapid2.jpg"
+    },
+    "description": "Pokračování hranatého kupé Garde. Šikmá střecha, černé nárazníky a široká vodorovná zadní světla.",
+    "note": "Na obou fotografiích Rapid 130 z roku 1985.",
+    "era": "historické",
+    "needsVisualVerification": false,
+    "group": "Historické",
+    "id": "rapid-1984-743-0-kupe"
+  },
+  {
+    "model": "Kamiq (Čína)",
+    "generation": "I",
+    "facelift": false,
+    "start": 2018,
+    "end": null,
+    "body": "SUV",
+    "market": "Čína",
+    "front": {
+      "file": "Skoda Kamiq 001.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Skoda_Kamiq_001.jpg/960px-Skoda_Kamiq_001.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/62/Skoda_Kamiq_001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kamiq_001.jpg",
+      "author": "Jengtingchen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "rear": {
+      "file": "Skoda Kamiq rear China.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Skoda_Kamiq_rear_China.jpg/960px-Skoda_Kamiq_rear_China.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/25/Skoda_Kamiq_rear_China.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kamiq_rear_China.jpg",
+      "author": "Jengtingchen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "description": "Samostatný čínský model: běžná jednodílná přední světla místo evropských dělených světel. Vzadu má hranaté svítilny; na starších vozech kulatý znak a čínské nápisy.",
+    "group": "Mimo Evropu",
+    "id": "kamiq-cina-i-0-suv"
+  },
+  {
+    "model": "Kamiq GT",
+    "generation": "I",
+    "facelift": false,
+    "start": 2019,
+    "end": null,
+    "body": "SUV",
+    "market": "Čína",
+    "front": {
+      "file": "Skoda Kamiq GT 001.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Skoda_Kamiq_GT_001.jpg/960px-Skoda_Kamiq_GT_001.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/Skoda_Kamiq_GT_001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kamiq_GT_001.jpg",
+      "author": "Jengtingchen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "rear": {
+      "file": "Skoda Kamiq GT 002.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Skoda_Kamiq_GT_002.jpg/960px-Skoda_Kamiq_GT_002.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Skoda_Kamiq_GT_002.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kamiq_GT_002.jpg",
+      "author": "Jengtingchen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "description": "Čínský Kamiq s ostřejší přídí, užšími světly a odlišnou zadní částí. Typickým znakem je kontrastní střecha a dekor zadního sloupku; nápis GT označuje tuto samostatnou variantu.",
+    "group": "Mimo Evropu",
+    "id": "kamiq-gt-i-0-suv"
+  },
+  {
+    "model": "Kodiaq GT",
+    "generation": "I",
+    "facelift": false,
+    "start": 2018,
+    "end": 2022,
+    "body": "SUV kupé",
+    "market": "Čína",
+    "front": {
+      "file": "Skoda Kodiaq GT 001.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Skoda_Kodiaq_GT_001.jpg/960px-Skoda_Kodiaq_GT_001.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Skoda_Kodiaq_GT_001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kodiaq_GT_001.jpg",
+      "author": "Jengtingchen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "rear": {
+      "file": "Skoda Kodiaq GT 002.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Skoda_Kodiaq_GT_002.jpg/960px-Skoda_Kodiaq_GT_002.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Skoda_Kodiaq_GT_002.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Kodiaq_GT_002.jpg",
+      "author": "Jengtingchen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "description": "Čínské SUV kupé příbuzné Kodiaqu. Výrazněji klesající střecha a zcela jiná kratší záď s úzkými světly jej odlišují od evropského Kodiaqu.",
+    "group": "Mimo Evropu",
+    "id": "kodiaq-gt-i-0-suv-kupe"
+  },
+  {
+    "model": "Kodiaq GT",
+    "generation": "I",
+    "facelift": true,
+    "start": 2022,
+    "end": null,
+    "body": "SUV kupé",
+    "market": "Čína",
+    "front": {
+      "url": "https://s.auto.drom.ru/i24292/c/photos/fullsize/skoda/kodiaq_gt/skoda_kodiaq_gt_1199132.jpg",
+      "original": "https://s.auto.drom.ru/i24292/c/photos/fullsize/skoda/kodiaq_gt/skoda_kodiaq_gt_1199132.jpg",
+      "source": "https://www.drom.ru/catalog/skoda/kodiaq_gt/g_2022_20446/",
+      "author": "Drom / zdroj fotografie uveden v katalogu",
+      "license": "Externí fotografie katalogu; práva u zdroje",
+      "licenseUrl": "https://www.drom.ru/catalog/skoda/kodiaq_gt/g_2022_20446/"
+    },
+    "rear": {
+      "url": "https://s.auto.drom.ru/i24292/c/photos/fullsize/skoda/kodiaq_gt/skoda_kodiaq_gt_1199137.jpg",
+      "original": "https://s.auto.drom.ru/i24292/c/photos/fullsize/skoda/kodiaq_gt/skoda_kodiaq_gt_1199137.jpg",
+      "source": "https://www.drom.ru/catalog/skoda/kodiaq_gt/g_2022_20446/",
+      "author": "Drom / zdroj fotografie uveden v katalogu",
+      "license": "Externí fotografie katalogu; práva u zdroje",
+      "licenseUrl": "https://www.drom.ru/catalog/skoda/kodiaq_gt/g_2022_20446/"
+    },
+    "description": "Facelift čínského SUV kupé zvýrazňuje černé doplňky masky a nárazníků. Záď se pozná podle šestiúhelníkových koncovek v dolní části nárazníku; klesající střecha zůstává.",
+    "group": "Mimo Evropu",
+    "id": "kodiaq-gt-i-1-suv-kupe"
+  },
+  {
+    "model": "Kushaq",
+    "generation": "I",
+    "facelift": false,
+    "start": 2021,
+    "end": 2026,
+    "body": "SUV",
+    "market": "Indie",
+    "front": {
+      "url": "https://cdn.skoda-storyboard.com/2021/03/16_SKODA_KUSHAQ_WP-1440x960.jpg",
+      "original": "https://cdn.skoda-storyboard.com/2021/03/16_SKODA_KUSHAQ_WP-1440x960.jpg",
+      "source": "https://www.skoda-storyboard.com/en/16_skoda_kushaq_wp/",
+      "author": "© Škoda Auto a.s.",
+      "license": "Oficiální tisková fotografie – externí vložení",
+      "licenseUrl": "https://www.skoda-storyboard.com/en/copyright/"
+    },
+    "rear": {
+      "url": "https://cdn.skoda-storyboard.com/2021/03/Kushaq_rear.jpg",
+      "original": "https://cdn.skoda-storyboard.com/2021/03/Kushaq_rear.jpg",
+      "source": "https://www.skoda-storyboard.com/en/models/kushaq/watch-the-premiere-of-the-indian-skoda-kushaq-suv/",
+      "author": "© Škoda Auto a.s.",
+      "license": "Oficiální tisková fotografie – externí vložení",
+      "licenseUrl": "https://www.skoda-storyboard.com/en/copyright/"
+    },
+    "description": "Indické SUV příbuzné evropskému stylu Škody. Přední světla mají dvě oddělené části, vzadu původní samostatné svítilny do tvaru C a nápis ŠKODA.",
+    "group": "Mimo Evropu",
+    "id": "kushaq-i-0-suv"
+  },
+  {
+    "model": "Kushaq",
+    "generation": "I",
+    "facelift": true,
+    "start": 2026,
+    "end": null,
+    "body": "SUV",
+    "market": "Indie",
+    "front": {
+      "url": "https://cdn.skoda-storyboard.com/2026/01/260120_-Skoda-Auto-unveils-the-new-Kushaq-in-India-1_97e16730-1440x810.jpg",
+      "original": "https://cdn.skoda-storyboard.com/2026/01/260120_-Skoda-Auto-unveils-the-new-Kushaq-in-India-1_97e16730-1440x810.jpg",
+      "source": "https://www.skoda-storyboard.com/?attachment_id=431631",
+      "author": "© Škoda Auto a.s.",
+      "license": "Oficiální tisková fotografie – externí vložení",
+      "licenseUrl": "https://www.skoda-storyboard.com/en/copyright/"
+    },
+    "rear": {
+      "url": "https://cdn.skoda-storyboard.com/2026/01/260120_-Skoda-Auto-unveils-the-new-Kushaq-in-India-2_77ecbc26-1440x810.jpg",
+      "original": "https://cdn.skoda-storyboard.com/2026/01/260120_-Skoda-Auto-unveils-the-new-Kushaq-in-India-2_77ecbc26-1440x810.jpg",
+      "source": "https://www.skoda-storyboard.com/?attachment_id=431632",
+      "author": "© Škoda Auto a.s.",
+      "license": "Oficiální tisková fotografie – externí vložení",
+      "licenseUrl": "https://www.skoda-storyboard.com/en/copyright/"
+    },
+    "description": "Nová maska se světelným pásem opticky spojuje přední světlomety. Vzadu jsou nově propojené svítilny a podsvícený nápis Škoda; výrazně se změnily i nárazníky.",
+    "group": "Mimo Evropu",
+    "id": "kushaq-i-1-suv"
+  },
+  {
+    "model": "Kylaq",
+    "generation": "I",
+    "facelift": false,
+    "start": 2024,
+    "end": null,
+    "body": "SUV",
+    "market": "Indie",
+    "front": {
+      "file": "2025 Skoda Kylaq.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/2025_Skoda_Kylaq.png/960px-2025_Skoda_Kylaq.png",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/2025_Skoda_Kylaq.png",
+      "source": "https://commons.wikimedia.org/wiki/File:2025_Skoda_Kylaq.png",
+      "author": "Faisal Khan",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "rear": {
+      "url": "https://cdn-s3.autocarindia.com/Skoda/kylaq/Skoda%20Kylaq_4_OP709807.JPG",
+      "original": "https://cdn-s3.autocarindia.com/Skoda/kylaq/Skoda%20Kylaq_4_OP709807.JPG",
+      "source": "https://www.autocarindia.com/advice/best-automatic-car-under-10-lakh-for-city-driving-443124",
+      "author": "© Autocar India",
+      "license": "Externí redakční fotografie; práva u zdroje",
+      "licenseUrl": "https://www.autocarindia.com/"
+    },
+    "description": "Krátké indické SUV: dělená přední světla a robustní nárazníky. Vzadu má kompaktní hranaté svítilny propojené širokým černým pásem s nápisem Škoda.",
+    "group": "Mimo Evropu",
+    "id": "kylaq-i-0-suv"
+  },
+  {
+    "model": "Rapid (Indie)",
+    "generation": "I",
+    "facelift": false,
+    "start": 2011,
+    "end": 2016,
+    "body": "Sedan",
+    "market": "Indie",
+    "front": {
+      "file": "Škoda - Rapid - Subcompact Car - Kolkata 2015-10-05 4376 (cropped).JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/%C5%A0koda_-_Rapid_-_Subcompact_Car_-_Kolkata_2015-10-05_4376_(cropped).JPG/960px-%C5%A0koda_-_Rapid_-_Subcompact_Car_-_Kolkata_2015-10-05_4376_(cropped).JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/13/%C5%A0koda_-_Rapid_-_Subcompact_Car_-_Kolkata_2015-10-05_4376_(cropped).JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_-_Rapid_-_Subcompact_Car_-_Kolkata_2015-10-05_4376_(cropped).JPG",
+      "author": "Biswarup Ganguly",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "rear": {
+      "url": "https://media.mahindrafirstchoice.com/live_web_images/usedcarsimg/mfc/2316/637804/rear_left_view-20250827122143.jpg",
+      "original": "https://media.mahindrafirstchoice.com/live_web_images/usedcarsimg/mfc/2316/637804/rear_left_view-20250827122143.jpg",
+      "source": "https://www.mahindrafirstchoice.com/buyer/detail/salem-skoda-637804",
+      "author": "Mahindra First Choice / prodejce vozu",
+      "license": "Externí fotografie prodejce; práva u zdroje",
+      "licenseUrl": "https://www.mahindrafirstchoice.com/buyer/detail/salem-skoda-637804"
+    },
+    "description": "Původní indický Rapid má zaoblená přední světla a příď připomínající Fabii II. Jde o sedan s odděleným víkem zavazadelníku, odlišný od evropského liftbacku.",
+    "group": "Mimo Evropu",
+    "id": "rapid-indie-i-0-sedan"
+  },
+  {
+    "model": "Rapid (Indie)",
+    "generation": "I",
+    "facelift": true,
+    "start": 2016,
+    "end": 2021,
+    "body": "Sedan",
+    "market": "Indie",
+    "front": {
+      "file": "Skoda Rapid Ind front 20230602.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Skoda_Rapid_Ind_front_20230602.jpg/960px-Skoda_Rapid_Ind_front_20230602.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/57/Skoda_Rapid_Ind_front_20230602.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Rapid_Ind_front_20230602.jpg",
+      "author": "Dairokkan9",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "rear": {
+      "file": "Skoda Rapid Ind rear 20230602.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Skoda_Rapid_Ind_rear_20230602.jpg/960px-Skoda_Rapid_Ind_rear_20230602.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Skoda_Rapid_Ind_rear_20230602.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skoda_Rapid_Ind_rear_20230602.jpg",
+      "author": "Dairokkan9",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "description": "Samostatný indický sedan. Facelift vyměnil původní zakulacenou příď za hranatá světla a novou masku podobnou tehdejším evropským škodovkám; záď se změnila méně.",
+    "group": "Mimo Evropu",
+    "id": "rapid-indie-i-1-sedan"
+  },
+  {
+    "model": "Slavia",
+    "generation": "I",
+    "facelift": false,
+    "start": 2021,
+    "end": 2026,
+    "body": "Sedan",
+    "market": "Indie",
+    "front": {
+      "file": "2021 Škoda Slavia 1.5 TSI Style (India) front view.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2021_%C5%A0koda_Slavia_1.5_TSI_Style_(India)_front_view.png/960px-2021_%C5%A0koda_Slavia_1.5_TSI_Style_(India)_front_view.png",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/92/2021_%C5%A0koda_Slavia_1.5_TSI_Style_(India)_front_view.png",
+      "source": "https://commons.wikimedia.org/wiki/File:2021_%C5%A0koda_Slavia_1.5_TSI_Style_(India)_front_view.png",
+      "author": "Athira Murali",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "rear": {
+      "url": "https://cdn.skoda-storyboard.com/2021/11/02_SKODA_SLAVIA-1440x960.jpg",
+      "original": "https://cdn.skoda-storyboard.com/2021/11/02_SKODA_SLAVIA-1440x960.jpg",
+      "source": "https://www.skoda-storyboard.com/en/02_skoda_slavia/",
+      "author": "© Škoda Auto a.s.",
+      "license": "Oficiální tisková fotografie – externí vložení",
+      "licenseUrl": "https://www.skoda-storyboard.com/en/copyright/"
+    },
+    "description": "Indický sedan s klasickým odděleným víkem zavazadelníku. Přední světla jsou úzká a propojená maskou; vzadu má dvoudílná světla do tvaru C.",
+    "group": "Mimo Evropu",
+    "id": "slavia-i-0-sedan"
+  },
+  {
+    "model": "Slavia",
+    "generation": "I",
+    "facelift": true,
+    "start": 2026,
+    "end": null,
+    "body": "Sedan",
+    "market": "Indie",
+    "front": {
+      "url": "https://cdn.skoda-storyboard.com/2026/08/01_Skoda_Slavia_Monte_Carlo_9ae70a7b-768x432.jpg",
+      "original": "https://cdn.skoda-storyboard.com/2026/08/01_Skoda_Slavia_Monte_Carlo_9ae70a7b-768x432.jpg",
+      "source": "https://www.skoda-storyboard.com/en/models/slavia/the-new-skoda-slavia-features-a-refreshed-look-and-an-exclusive-colour/",
+      "author": "© Škoda Auto a.s.",
+      "license": "Oficiální tisková fotografie – externí vložení",
+      "licenseUrl": "https://www.skoda-storyboard.com/en/copyright/"
+    },
+    "rear": {
+      "url": "https://cdn.skoda-storyboard.com/2026/08/02_Skoda_Slavia_Monte_Carlo_713dfdce-768x432.jpg",
+      "original": "https://cdn.skoda-storyboard.com/2026/08/02_Skoda_Slavia_Monte_Carlo_713dfdce-768x432.jpg",
+      "source": "https://www.skoda-storyboard.com/en/models/slavia/the-new-skoda-slavia-features-a-refreshed-look-and-an-exclusive-colour/",
+      "author": "© Škoda Auto a.s.",
+      "license": "Oficiální tisková fotografie – externí vložení",
+      "licenseUrl": "https://www.skoda-storyboard.com/en/copyright/"
+    },
+    "description": "Výrazně přepracovaná příď se segmentovanými světly a členitější maskou. Zadní svítilny opticky propojuje tmavý pás s nápisem Škoda; snímky ukazují černé doplňky Monte Carlo.",
+    "group": "Mimo Evropu",
+    "id": "slavia-i-1-sedan"
+  }
+]

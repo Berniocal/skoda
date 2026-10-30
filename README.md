@@ -1,15 +1,23 @@
-# Atlas škodovek — původní hotový web
+# Atlas škodovek — kompletní katalog
 
-Původní aplikace vytvořená v předchozí konverzaci 29. října 2026:
+Obnovený původní vzhled a ovládání Atlasu podle uložené stránky s kompletními daty od autora.
 
-**https://skoda-atlas-bernard.cozyfig132.chatgpt.site**
+**Obsah:** 40 modelových řad, 78 vzhledových verzí a 95 položek včetně karoserií.
 
-Obsahuje 40 modelových řad Škoda a 78 vzhledových verzí, s výběrem různých generací, faceliftů a karoserií k porovnání. Původní stránka umí porovnání fotografií zepředu a zezadu, přepínání rozložení a vlastní výběry.
+Zachován výběr generací, faceliftů a karoserií, vlastní srovnání, mřížka a řádkové rozložení, zvětšování fotografií a sdílení výběru pomocí URL.
 
-## Stav tohoto repozitáře
+Fotografie Octavie I po faceliftu (Liftback): **zepředu Car and Driving**, **zezadu Auto ESA**. Jde o externí fotografie s právy jejich držitelů, nikoliv o snímky Wikimedia Commons.
 
-Důležité: `index.html` je **pouze přesměrování na původní hotovou aplikaci**. Nejedná se o export zdrojového kódu ani samostatné hostování aplikace na GitHub Pages.
+## Administrace
 
-Důvod: zpětně je k dispozici publikovaná aplikace a její textový záznam, nikoli zdrojové soubory nasazení. Původní souborový projekt je nutné získat/exportovat, teprve pak může být aplikace přímo hostována v tomto repozitáři. Toto přesměrování bylo zvoleno místo vytváření nové, neúplné napodobeniny.
+Na `admin.html` lze přidávat, upravovat a mazat modely, roky, popisky, URL fotografií i metadata.
 
-Původní chybně vytvořená pouze-Octavia stránka byla nahrazena.
+Admin ukládá změny **lokálně v prohlížeči**. Pro veřejné zveřejnění změn je nutné použít tlačítko **Stáhnout data.json** a v repozitáři nahradit soubor `data.json`. Tato veřejná statická stránka neukládá žádná hesla ani tokeny GitHub.
+
+## Spuštění
+
+Web je v `index.html`, admin v `admin.html`, údaje v `data.json`. Umístěte soubory do kořene GitHub Pages a používejte HTTP(S), protože web načítá JSON přes `fetch`.
+
+Původně zveřejněný web: https://skoda-atlas-bernard.cozyfig132.chatgpt.site/
+
+Rekonstrukce zachovává vzhled a interakce podle uložené kopie, ale nezaručuje bitově stejný build. Externí zdroje fotografií mohou odmítnout jejich načtení.
