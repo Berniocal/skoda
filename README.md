@@ -23,3 +23,7 @@ Repozitář: https://github.com/Berniocal/skoda
 Zdrojová původní aplikace: https://skoda-atlas-bernard.cozyfig132.chatgpt.site/
 
 Fotografie jsou externí odkazy. Počet katalogových položek určuje obsah `data.json`.
+
+## Import fotografií z Wikimedia Commons
+
+V administraci otevři požadovaný model a u fotografie zepředu nebo zezadu vlož do samostatného pole například `https://commons.wikimedia.org/wiki/File:SkodaSuperb.jpg`. Klikni **Načíst a vyplnit z Wikimedia**. Po potvrzení se vyplní URL zmenšeného obrázku, originál, zdroj na Commons, autor, licence, odkaz na licenci i původní název souboru. Funkce také rozpozná odkazy na přímé soubory z `upload.wikimedia.org`. Data se pro veřejnost změní až po stisknutí **Zveřejnit katalog na GitHubu** (po připojení GitHub tokenem).
