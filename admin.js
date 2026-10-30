@@ -12,6 +12,98 @@ function status(t){$('#status').textContent=t}
 function valid(x){return Array.isArray(x)&&x.every(d=>d&&typeof d==='object'&&typeof d.id==='string'&&typeof d.model==='string'&&typeof d.body==='string'&&typeof d.facelift==='boolean')}
 function clone(obj){return JSON.parse(JSON.stringify(obj))}
 function field(label,value,onchange,textarea=false){const wrap=document.createElement('label');wrap.className=textarea?'wide':'';wrap.append(document.createTextNode(label));const input=document.createElement(textarea?'textarea':'input');if(!textarea)input.type='text';input.value=value??'';input.addEventListener('input',()=>onchange(input.value));wrap.append(input);return wrap}
+
+// Wikimedia Commons: přímé načtení autora a licence pomocí MediaWiki imageinfo API.
+// Není potřeba GitHub token; záznam se upraví až po potvrzení a publikace se provádí zvlášť.
+function wikimediaFileTitle(photo){
+ if(!photo||!photo.url)return null;
+ let mediaUrl;
+ try{mediaUrl=new URL(photo.url)}catch{return null}
+ // Odmítnout cizí fotku, i když po staré fotce zůstal odkaz na Commons.
+ if(mediaUrl.protocol!=='https:'||!['upload.wikimedia.org','commons.wikimedia.org'].includes(mediaUrl.hostname))return null;
+ if(mediaUrl.hostname==='upload.wikimedia.org'&&!mediaUrl.pathname.startsWith('/wikipedia/commons/'))return null;
+ const candidates=[photo.source,photo.original,photo.url];
+ for(const address of candidates){
+  if(!address)continue;
+  try{
+   const uri=new URL(address);
+   if(uri.protocol!=='https:')continue;
+   if(uri.hostname==='commons.wikimedia.org'){
+    const raw=uri.searchParams.get('title')||(uri.pathname.startsWith('/wiki/')?decodeURIComponent(uri.pathname.slice(6)):null);
+    if(raw&&/^(File|Image):/i.test(raw))return 'File:'+raw.replace(/^(File|Image):/i,'').replace(/_/g,' ');
+   }
+  }catch{}
+ }
+ // V katalogu Commons bývá originální název dostupný v poli "file".
+ if(photo.file&&typeof photo.file==='string')return 'File:'+photo.file;
+ for(const address of [photo.original,photo.url]){
+  if(!address)continue;
+  try{
+   const uri=new URL(address);
+   if(uri.hostname!=='upload.wikimedia.org'||!uri.pathname.startsWith('/wikipedia/commons/'))continue;
+   const parts=uri.pathname.split('/');
+   let filename=decodeURIComponent(parts.at(-1)||'');
+   if(uri.pathname.includes('/thumb/'))filename=decodeURIComponent(parts.at(-2)||'');
+   if(filename)return 'File:'+filename.replace(/_/g,' ');
+  }catch{}
+ }
+ return null;
+}
+function wikimediaPlainText(html){
+ if(!html)return '';
+ const doc=new DOMParser().parseFromString(String(html),'text/html');
+ return (doc.body.textContent||'').replace(/\s+/g,' ').trim().slice(0,800);
+}
+async function fetchWikimediaMetadata(photo,inputs,button,row,recordTitle){
+ const fileTitle=wikimediaFileTitle(photo);
+ if(!fileTitle){status('Pro tento snímek nelze načíst Wikimedia metadata: není z Wikimedia Commons.');return;}
+ const prev=button.textContent;
+ button.disabled=true;button.textContent='Načítám z Wikimedia…';
+ try{
+  const params=new URLSearchParams({
+   action:'query',format:'json',formatversion:'2',
+   prop:'imageinfo',iiprop:'url|extmetadata',
+   iiextmetadatamultilang:'0',iiextmetadatalanguage:'en',
+   titles:fileTitle,origin:'*'
+  });
+  const response=await fetch('https://commons.wikimedia.org/w/api.php?'+params.toString(),{mode:'cors',cache:'no-store'});
+  if(!response.ok)throw Error('Wikimedia odpověděla chybou HTTP '+response.status+'.');
+  const result=await response.json();
+  if(result.error)throw Error(String(result.error.info||'Wikimedia API vrátilo chybu.'));
+  const page=result.query?.pages?.[0];
+  if(!page||page.missing||!page.imageinfo?.length)throw Error('Soubor nebyl na Wikimedia Commons nalezen: '+fileTitle);
+  const info=page.imageinfo[0],metadata=info.extmetadata||{};
+  const author=wikimediaPlainText(metadata.Artist?.value);
+  const license=wikimediaPlainText(metadata.LicenseShortName?.value||metadata.UsageTerms?.value);
+  const licenseUrl=String(metadata.LicenseUrl?.value||'');
+  const source=info.descriptionurl||'https://commons.wikimedia.org/wiki/'+encodeURIComponent(page.title).replace(/%3A/gi,':');
+  if(!author&&!license)throw Error('Wikimedia pro tuto fotografii neposkytla čitelné údaje o autorovi ani licenci. Zkontroluj stránku souboru ručně.');
+  if(!rows.includes(row))throw Error('Mezitím se změnil seznam modelů. Otevři položku znovu.');
+  if(wikimediaFileTitle(photo)!==fileTitle)throw Error('Mezitím se změnila fotografie. Načti údaje znovu.');
+  const preview=[
+   'Fotografie: '+recordTitle,
+   'Pohled: '+(photo===row.front?'zepředu':'zezadu'),
+   'Soubor: '+page.title,
+   'Autor: '+(author||'nezjištěn – ponechá se dosavadní'),
+   'Licence: '+(license||'nezjištěna – ponechá se dosavadní'),
+   'Zdroj: '+source,
+   licenseUrl?'Odkaz na licenci: '+licenseUrl:'',
+   '',
+   'Převzít nalezené údaje do formuláře? Fotografie samotná se nezmění.'
+  ].filter(Boolean).join('\n');
+  if(!confirm(preview)){status('Převzetí metadat Wikimedia bylo zrušeno.');return;}
+  if(author){photo.author=author;if(inputs.author)inputs.author.value=author;}
+  if(license){photo.license=license;if(inputs.license)inputs.license.value=license;}
+  photo.source=source;if(inputs.source)inputs.source.value=source;
+  if(/^https:\/\/(creativecommons\.org|commons\.wikimedia\.org)\//.test(licenseUrl))photo.licenseUrl=licenseUrl;
+  status('Metadata Wikimedia načtena pro '+recordTitle+'. Ulož změny lokálně nebo klikni na „Zveřejnit katalog na GitHubu“. Zkontroluj také konkrétní podmínky licence.');
+ }catch(e){
+  status('Wikimedia: '+e.message);
+ }finally{
+  button.textContent=prev;button.disabled=!wikimediaFileTitle(photo);
+ }
+}
+
 function draw(){
  const search=$('#searchAdmin').value.trim().toLowerCase();
  const target=$('#records');target.replaceChildren();
@@ -25,8 +117,27 @@ function draw(){
   const fl=document.createElement('label');fl.textContent='Provedení';const select=document.createElement('select');select.innerHTML='<option value="false">Před faceliftem / původní</option><option value="true">Po faceliftu</option>';select.value=String(!!r.facelift);select.addEventListener('change',()=>r.facelift=select.value==='true');fl.append(select);grid.append(fl);
   ['front','rear'].forEach(angle=>{
    r[angle]??={url:'',original:'',source:'',author:'',license:''};
-   const label=document.createElement('div');label.className='photo-fields';label.textContent=angle==='front'?'Fotografie zepředu':'Fotografie zezadu';grid.append(label);
-   photoFields.forEach(([key,label])=>grid.append(field(label,r[angle][key],v=>r[angle][key]=v)));
+   const photo=r[angle];
+   const section=document.createElement('div');section.className='photo-fields';
+   const label=document.createElement('strong');label.textContent=angle==='front'?'Fotografie zepředu':'Fotografie zezadu';
+   const wikiButton=document.createElement('button');wikiButton.className='admin-btn secondary wiki-fetch';wikiButton.type='button';wikiButton.textContent='↻ Načíst autora a licenci z Wikimedia';
+   wikiButton.title='Dostupné jen u fotografií z Wikimedia Commons';
+   const photoInputs={};
+   const refreshWikiButton=()=>{
+    wikiButton.disabled=!wikimediaFileTitle(photo);
+    wikiButton.title=wikiButton.disabled?'Nejprve vlož adresu fotografie z Wikimedia Commons':'Načíst metadata původního souboru z Wikimedia Commons';
+   };
+   wikiButton.addEventListener('click',()=>fetchWikimediaMetadata(photo,photoInputs,wikiButton,r,title));
+   section.append(label,wikiButton);grid.append(section);
+   photoFields.forEach(([key,fieldLabel])=>{
+    const wrapper=field(fieldLabel,photo[key],v=>{
+     photo[key]=v;
+     if(key==='url'||key==='original'||key==='source')refreshWikiButton();
+    });
+    photoInputs[key]=wrapper.querySelector('input');
+    grid.append(wrapper);
+   });
+   refreshWikiButton();
   });
   const actions=document.createElement('div');actions.className='admin-small-actions';
   const del=document.createElement('button');del.className='admin-btn danger';del.textContent='Smazat';del.addEventListener('click',()=>{if(confirm('Opravdu smazat '+title+'?')){rows.splice(i,1);draw();}});
