@@ -1,9 +1,55 @@
 <!doctype html><html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#163e35"><title>Správa Atlasu škodovek</title><link rel="stylesheet" href="style.css"><style>
 .admin{max-width:1250px;margin:30px auto 80px;padding:0 22px}.admin h1{font-size:clamp(25px,4vw,44px);margin:12px 0}.admin p{line-height:1.6}.admin-note{background:var(--panel);padding:16px 19px;border:1px solid var(--line);border-radius:16px;color:var(--ink);margin:20px 0}.admin-toolbar{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin:20px 0}.admin-btn{padding:11px 15px;border-radius:10px;background:var(--ink);color:var(--bg);font-weight:650}.admin-btn.secondary{background:var(--panel);border:1px solid var(--line);color:var(--ink)}.admin-btn.danger{color:#b32e2e;background:var(--panel);border:1px solid #c38181}.admin-btn:disabled{opacity:.45;cursor:not-allowed}.admin-list{display:grid;gap:14px}.admin-card{border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:15px 18px}.admin-card summary{display:flex;align-items:center;gap:10px;flex-wrap:wrap;cursor:pointer;list-style:none;font-weight:750}.admin-card summary::-webkit-details-marker{display:none}.admin-card summary small{font-weight:500;color:var(--muted)}.admin-fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:17px 0}.admin-fields label{font-size:12px;color:var(--muted);font-weight:650}.admin-fields input,.admin-fields textarea,.admin-fields select{display:block;width:100%;margin-top:5px;padding:10px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px}.admin-fields textarea{min-height:95px;resize:vertical}.admin-fields label.wide{grid-column:1/-1}.admin-fields label.photo-fields{grid-column:1/-1;font-size:14px;color:var(--ink);padding-top:9px;border-top:1px solid var(--line)}.admin-small-actions{display:flex;flex-wrap:wrap;gap:8px}.admin-status{color:var(--muted);margin:10px 0;min-height:24px}.admin-search{min-width:250px;flex:1;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink)}@media(max-width:780px){.admin-fields{grid-template-columns:1fr}.admin{padding:0 12px}}
+
+.github-connect{margin:18px 0 22px;padding:19px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}
+.github-connect h2,.github-source h2{margin:0 0 10px}
+.github-grid{display:grid;grid-template-columns:minmax(180px,1fr) auto auto;gap:10px;align-items:end;margin:12px 0}
+.github-grid label{font-size:13px;color:var(--muted);font-weight:650}
+.github-grid input{display:block;width:100%;margin-top:6px;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit}
+.github-connect p,.github-source p{line-height:1.6;margin:8px 0}
+.github-connect small{display:block;line-height:1.65;color:var(--muted)}
+.github-status{min-height:24px;margin-top:9px;color:var(--ink)}
+.github-status.error{color:#ba3535}
+.github-source{margin-top:35px;padding:20px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}
+.github-source-toolbar{display:flex;gap:9px;flex-wrap:wrap;align-items:end;margin:15px 0}
+.github-source select,.github-source input{max-width:100%;min-height:42px;padding:10px;border:1px solid var(--line);border-radius:9px;background:var(--bg);color:var(--ink)}
+.github-source textarea{display:block;width:100%;min-height:400px;padding:15px;font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;resize:vertical;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:10px;tab-size:2}
+.github-source textarea:disabled{opacity:.55}
+.github-source-meta{font-size:13px;color:var(--muted)}
+.github-source .admin-btn,.github-connect .admin-btn{min-height:42px}
+@media(max-width:720px){.github-grid{grid-template-columns:1fr}.github-grid button{width:100%}.github-source textarea{min-height:310px}}
 </style></head><body>
 <header><a class="brand" href="./"><span class="brand-mark">A<span>Š</span></span><span>ATLAS <strong>ŠKODOVEK</strong><small>SPRÁVA KATALOGU</small></span></a><span class="header-note">Správa původních modelů, bez změny designu srovnávače.</span></header>
 <main class="admin"><div class="eyebrow">EDITACE · MODELY · FOTOGRAFIE</div><h1>Správa Atlasu škodovek</h1>
-<div class="admin-note"><b>Jak funguje ukládání:</b> tlačítko <b>Uložit lokálně</b> mění katalog jen v tomto prohlížeči. Tlačítko <b>Stáhnout data.json</b> uloží úplný aktuální katalog, který pak lze nahrát na GitHub jako soubor <code>data.json</code>. Tento editor neposílá žádná hesla ani GitHub tokeny.</div>
-<div class="admin-toolbar"><button id="add" class="admin-btn">+ Přidat model</button><button id="save" class="admin-btn">Uložit lokálně</button><button id="download" class="admin-btn secondary">Stáhnout data.json</button><label class="admin-btn secondary" style="cursor:pointer">Importovat data.json <input type="file" id="file" accept=".json,application/json" hidden></label><button id="reset" class="admin-btn danger">Zrušit lokální úpravy</button><a href="./" class="admin-btn secondary" style="text-decoration:none">Zpět na Atlas</a></div>
+<section class="github-connect" aria-labelledby="github-heading">
+<h2 id="github-heading">GitHub · živá správa celého Atlasu</h2>
+<p>Propoj administraci s repozitářem <a href="https://github.com/Berniocal/skoda" target="_blank" rel="noopener noreferrer"><b>Berniocal/skoda</b></a> (větev <b>main</b>). Potom můžeš modely, popisky a fotografie uložit jedním kliknutím pro všechny návštěvníky. Dole najdeš i editor HTML, CSS, JavaScriptu a JSON souborů.</p>
+<div class="github-grid">
+<label for="ghToken">Osobní GitHub token (Fine-grained PAT)
+<input id="ghToken" type="password" placeholder="github_pat_…" autocomplete="off" spellcheck="false" autocapitalize="off" aria-describedby="ghHelp"></label>
+<button id="connectGithub" class="admin-btn" type="button">Připojit GitHub</button>
+<button id="disconnectGithub" class="admin-btn secondary" type="button" disabled>Odpojit</button>
+</div>
+<small id="ghHelp"><b>Bezpečnost:</b> token vytvoř jen pro repozitář <b>skoda</b> a povol pouze <b>Repository permissions → Contents → Read and write</b>. Vyplňuj ho výhradně tady v administraci, nikdy do chatu ani do zdrojového kódu. Token zůstává jen v paměti otevřené stránky a po obnovení zmizí. <a href="https://github.com/settings/personal-access-tokens/new?name=Skoda-Atlas-Admin&amp;target_name=Berniocal&amp;contents=write" target="_blank" rel="noopener noreferrer">Vytvořit token na GitHubu ↗</a></small>
+<div id="ghStatus" class="github-status" role="status" aria-live="polite">Nepřipojeno. Lokální editor můžeš používat i bez tokenu.</div>
+</section>
+<div class="admin-note"><b>Katalog:</b> po připojení klikni na <b>Načíst z GitHubu</b>, uprav libovolné modely a klikni na <b>Zveřejnit katalog na GitHubu</b>. Změny vytvoří commit přímo na větvi main. Lokální uložení a export JSON zůstávají jako záloha.</div>
+<div class="admin-toolbar"><button id="reloadGithub" class="admin-btn secondary" disabled>↻ Načíst z GitHubu</button><button id="publishGithub" class="admin-btn" disabled>↑ Zveřejnit katalog na GitHubu</button><button id="add" class="admin-btn">+ Přidat model</button><button id="save" class="admin-btn secondary">Uložit lokálně</button><button id="download" class="admin-btn secondary">Stáhnout data.json</button><label class="admin-btn secondary" style="cursor:pointer">Importovat data.json <input type="file" id="file" accept=".json,application/json" hidden></label><button id="reset" class="admin-btn danger">Zrušit lokální úpravy</button><a href="./" class="admin-btn secondary" style="text-decoration:none">Zpět na Atlas</a></div>
 <div class="admin-toolbar"><input id="searchAdmin" class="admin-search" placeholder="Hledat model, generaci nebo ID…"><span id="total"></span></div><div class="admin-status" id="status" role="status"></div><div id="records" class="admin-list"></div>
+<section class="github-source" aria-labelledby="sourceTitle">
+<h2 id="sourceTitle">Pokročilé: upravit soubory celého webu</h2>
+<p>HTML, CSS, JavaScript i JSON můžeš otevřít a změnit přímo tady. Uložení vytvoří samostatný commit na GitHubu. Před úpravou zdrojového kódu doporučuji zálohu; chybný kód může web znefunkčnit.</p>
+<div class="github-source-toolbar">
+<label for="ghFileName">Soubor:</label>
+<select id="ghFileName"><option value="index.html">index.html — hlavní web</option><option value="style.css">style.css — vzhled</option><option value="app.js">app.js — funkce srovnávače</option><option value="data.json">data.json — kompletní surová data</option><option value="admin.html">admin.html — administrace</option><option value="admin.js">admin.js — funkce administrace</option><option value="photo.html">photo.html — fotografie</option><option value="README.md">README.md — popis projektu</option></select>
+<button id="ghReadFile" class="admin-btn secondary" disabled>Otevřít z GitHubu</button>
+</div>
+<div class="github-source-meta" id="ghFileStatus">Nejprve připoj token a otevři požadovaný soubor.</div>
+<textarea id="ghSourceText" aria-label="Zdrojový kód vybraného souboru" placeholder="Tady se zobrazí zdrojový kód…" disabled spellcheck="false"></textarea>
+<div class="github-source-toolbar">
+<label for="ghCommitMessage">Popis změny (commit):</label>
+<input id="ghCommitMessage" type="text" placeholder="Například: Upravit vzhled katalogu" style="flex:1;min-width:220px">
+<button id="ghSaveFile" class="admin-btn" disabled>↑ Uložit soubor na GitHub</button>
+</div>
+</section>
 </main><script src="admin.js" defer></script></body></html>
