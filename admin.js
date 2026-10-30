@@ -44,3 +44,197 @@ $('#add').onclick=()=>{const r={id:'novy-'+Date.now(),model:'Nový model',genera
 $('#reset').onclick=()=>{if(confirm('Zahodit všechny lokální úpravy a načíst data z GitHubu?')){localStorage.removeItem(STORAGE_KEY);location.reload()}};
 $('#file').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{const parsed=JSON.parse(await file.text());if(!valid(parsed))throw Error('Soubor neobsahuje očekávané pole modelů.');rows=parsed;draw();status('Načteno '+rows.length+' modelů. Pro trvalé převzetí klikni na Uložit lokálně.')}catch(e){status('Import selhal: '+e.message)}e.target.value=''};
 (async()=>{try{const r=await fetch('data.json',{cache:'no-cache'});if(!r.ok)throw Error('Soubor data.json chybí.');const original=await r.json();const saved=localStorage.getItem(STORAGE_KEY);rows=saved?JSON.parse(saved):original;if(!valid(rows))throw Error('Neočekávaný formát dat.');draw();status('Načteno '+rows.length+' položek. Admin upravuje stejná data jako původní Atlas.')}catch(e){status('Katalog nelze načíst: '+e.message)}})();
+
+// GitHub REST API — jediným uloženým přihlašovacím údajem je proměnná v paměti stránky.
+// Token se neukládá do localStorage, sessionStorage, souborů ani do URL.
+const GITHUB_OWNER='Berniocal';
+const GITHUB_REPO='skoda';
+const GITHUB_BRANCH='main';
+const GITHUB_CONTENTS='https://api.github.com/repos/'+GITHUB_OWNER+'/'+GITHUB_REPO+'/contents/';
+let githubToken='';
+let githubDataSHA=null;
+let githubEditorSHA=null;
+let githubEditorPath='';
+let githubBusy=false;
+const githubElm=id=>document.getElementById(id);
+function githubStatus(text,isError=false){
+ const node=githubElm('ghStatus');node.textContent=text;
+ node.classList.toggle('error',isError);
+}
+function githubFileStatus(text,isError=false){
+ const node=githubElm('ghFileStatus');node.textContent=text;
+ node.style.color=isError?'#ba3535':'';
+}
+function githubButtons(){
+ const connected=!!githubToken;
+ githubElm('disconnectGithub').disabled=!connected||githubBusy;
+ githubElm('reloadGithub').disabled=!connected||githubBusy;
+ githubElm('ghReadFile').disabled=!connected||githubBusy;
+ githubElm('publishGithub').disabled=!connected||!githubDataSHA||githubBusy;
+ githubElm('ghSaveFile').disabled=!connected||!githubEditorSHA||githubBusy;
+ githubElm('connectGithub').disabled=githubBusy;
+}
+function githubEncode(text){
+ const bytes=new TextEncoder().encode(text);
+ let binary='';
+ for(let i=0;i<bytes.length;i+=8192)binary+=String.fromCharCode.apply(null,bytes.subarray(i,i+8192));
+ return btoa(binary);
+}
+function githubDecode(base64){
+ const str=atob(String(base64||'').replace(/\s/g,''));
+ const bytes=new Uint8Array(str.length);
+ for(let i=0;i<str.length;i++)bytes[i]=str.charCodeAt(i);
+ return new TextDecoder().decode(bytes);
+}
+async function githubRequest(method,path,body){
+ if(!githubToken)throw Error('Nejprve připoj GitHub token.');
+ const url=GITHUB_CONTENTS+path+(method==='GET'?'?ref='+encodeURIComponent(GITHUB_BRANCH):'');
+ let response;
+ try{
+  response=await fetch(url,{
+   method,
+   headers:{
+    'Accept':'application/vnd.github+json',
+    'Authorization':'Bearer '+githubToken,
+    'X-GitHub-Api-Version':'2022-11-28',
+    ...(method!=='GET'?{'Content-Type':'application/json'}:{})
+   },
+   ...(method!=='GET'?{body:JSON.stringify(body)}:{}),
+   cache:'no-store'
+  });
+ }catch(e){
+  throw Error('Nepodařilo se spojit s api.github.com. Zkontroluj internet, HTTPS a blokování požadavků. '+e.message);
+ }
+ const responseData=await response.json().catch(()=>({}));
+ if(!response.ok){
+  if(response.status===401)throw Error('Token je neplatný nebo vypršel (401).');
+  if(response.status===403)throw Error('Přístup zamítnut (403). Zkontroluj oprávnění Contents: Read and write, přístup k repozitáři a případné limity GitHubu.');
+  if(response.status===404)throw Error('Soubor nebo repozitář není dostupný (404). Zkontroluj přístup tokenu k Berniocal/skoda.');
+  if(response.status===409)throw Error('Konflikt změn (409). Soubor na GitHubu mezitím někdo upravil. Znovu načti aktuální verzi, jinak bys cizí změny přepsal.');
+  throw Error('GitHub '+response.status+': '+String(responseData.message||'požadavek selhal'));
+ }
+ return responseData;
+}
+async function githubGetFile(path){
+ const data=await githubRequest('GET',path);
+ if(data.type!=='file'||!data.sha||!data.content)throw Error('GitHub nevrátil obsah souboru '+path+'.');
+ return {sha:data.sha,text:githubDecode(data.content)};
+}
+async function githubWriteFile(path,sha,text,message){
+ return githubRequest('PUT',path,{
+  message:message,
+  branch:GITHUB_BRANCH,
+  sha,
+  content:githubEncode(text)
+ });
+}
+function githubSetBusy(busy){githubBusy=busy;githubButtons();}
+githubElm('connectGithub').addEventListener('click',async()=>{
+ const incoming=githubElm('ghToken').value.trim();
+ if(!incoming){githubStatus('Vlož Fine-grained GitHub token.',true);return;}
+ githubToken=incoming;githubDataSHA=null;githubEditorSHA=null;githubEditorPath='';
+ githubElm('ghToken').value='';
+ githubSetBusy(true);
+ githubStatus('Ověřuji přístup k repozitáři Berniocal/skoda…');
+ try{
+  const result=await githubGetFile('data.json');
+  const data=JSON.parse(result.text);
+  if(!valid(data))throw Error('Na GitHubu je neplatný formát data.json.');
+  // Záměrně nenastavujeme githubDataSHA: pro bezpečné publikování je potřeba
+  // nejprve explicitně načíst veřejná data (aby se nepřepsala stará lokální kopie).
+  githubStatus('Připojeno ke GitHubu. Nalezeno '+data.length+' položek. Klikni na „Načíst z GitHubu“, pak můžeš zveřejňovat změny.');
+ }catch(e){githubToken='';githubStatus('Připojení selhalo: '+e.message,true);}
+ finally{githubSetBusy(false);}
+});
+githubElm('disconnectGithub').addEventListener('click',()=>{
+ githubToken='';githubDataSHA=null;githubEditorSHA=null;githubEditorPath='';
+ githubElm('ghToken').value='';
+ githubElm('ghSourceText').value='';githubElm('ghSourceText').disabled=true;
+ githubElm('ghCommitMessage').value='';
+ githubStatus('Odpojeno. Token byl odstraněn z paměti administrace.');
+ githubFileStatus('Odpojeno.');githubButtons();
+});
+githubElm('reloadGithub').addEventListener('click',async()=>{
+ if(!confirm('Načíst aktuální katalog přímo z GitHubu? Dosud nezveřejněné úpravy v editoru budou nahrazeny.'))return;
+ githubSetBusy(true);
+ try{
+  const result=await githubGetFile('data.json');
+  const fresh=JSON.parse(result.text);
+  if(!valid(fresh))throw Error('data.json nemá správný formát.');
+  rows=fresh;
+  githubDataSHA=result.sha;
+  localStorage.removeItem(STORAGE_KEY);
+  githubElm('searchAdmin').value='';
+  draw();
+  githubStatus('Načten aktuální katalog z GitHubu ('+rows.length+' položek). Nyní můžeš upravovat a publikovat přímo online.');
+  status('Načtena veřejná data z GitHubu. Po úpravách klikni na „Zveřejnit katalog na GitHubu“.');
+ }catch(e){githubStatus('Nelze načíst katalog: '+e.message,true);}
+ finally{githubSetBusy(false);}
+});
+githubElm('publishGithub').addEventListener('click',async()=>{
+ if(!githubDataSHA){githubStatus('Nejprve klikni na „Načíst z GitHubu“.',true);return;}
+ let text;
+ try{text=JSON.stringify(snapshot(),null,2)+'\n';}
+ catch(e){githubStatus('Neplatná data: '+e.message,true);return;}
+ if(!confirm('Zveřejnit všech '+rows.length+' položek katalogu na GitHubu (main)? Změna bude viditelná všem po nasazení GitHub Pages.'))return;
+ githubSetBusy(true);githubStatus('Zapisuji data.json na GitHub…');
+ try{
+  const response=await githubWriteFile('data.json',githubDataSHA,text,'Aktualizovat Atlas škodovek přes online administraci');
+  githubDataSHA=response.content.sha;
+  if(githubEditorPath==='data.json')githubEditorSHA=null;
+  localStorage.removeItem(STORAGE_KEY);
+  githubStatus('Úspěšně zveřejněno! GitHub commit: '+response.commit.sha.slice(0,10)+'. Změny se na webu objeví po nasazení GitHub Pages.');
+  status('Publikováno na GitHub. Lokální kopie byla vymazána, aby nepřekrývala nová veřejná data.');
+ }catch(e){githubStatus('Ukládání selhalo: '+e.message,true);}
+ finally{githubSetBusy(false);}
+});
+githubElm('ghFileName').addEventListener('change',()=>{
+ githubEditorSHA=null;githubEditorPath='';
+ githubElm('ghSourceText').value='';githubElm('ghSourceText').disabled=true;
+ githubElm('ghCommitMessage').value='';
+ githubFileStatus('Soubor změněn. Klikni na „Otevřít z GitHubu“.');
+ githubButtons();
+});
+githubElm('ghReadFile').addEventListener('click',async()=>{
+ const path=githubElm('ghFileName').value;
+ githubEditorSHA=null;githubEditorPath='';
+ githubElm('ghSourceText').value='';githubElm('ghSourceText').disabled=true;
+ githubSetBusy(true);githubFileStatus('Načítám '+path+' z GitHubu…');
+ try{
+  const result=await githubGetFile(path);
+  githubEditorPath=path;githubEditorSHA=result.sha;
+  githubElm('ghSourceText').value=result.text;
+  githubElm('ghSourceText').disabled=false;
+  githubElm('ghCommitMessage').value='Upravit '+path+' v online administraci Atlasu';
+  githubFileStatus('Načten '+path+' · délka '+result.text.length+' znaků. Provedeš-li změnu, můžeš ji uložit přímo na GitHub.');
+ }catch(e){githubFileStatus('Načtení selhalo: '+e.message,true);}
+ finally{githubSetBusy(false);}
+});
+githubElm('ghSaveFile').addEventListener('click',async()=>{
+ const path=githubEditorPath,sha=githubEditorSHA;
+ if(!path||!sha||path!==githubElm('ghFileName').value){
+  githubFileStatus('Nejprve načti soubor z GitHubu.',true);return;
+ }
+ const text=githubElm('ghSourceText').value;
+ if(path==='data.json'){
+  let parsed;
+  try{parsed=JSON.parse(text);if(!valid(parsed))throw Error('Pole dat je neplatné.');}
+  catch(e){githubFileStatus('Nelze uložit neplatný JSON: '+e.message,true);return;}
+ }
+ const message=githubElm('ghCommitMessage').value.trim()||'Upravit '+path+' v online administraci Atlasu';
+ if(!confirm('Opravdu uložit soubor '+path+' na větev main? Chyba ve zdrojovém kódu může způsobit nefunkčnost webu.'))return;
+ githubSetBusy(true);githubFileStatus('Ukládám '+path+' na GitHub…');
+ try{
+  const response=await githubWriteFile(path,sha,text,message);
+  githubEditorSHA=response.content.sha;
+  if(path==='data.json'){
+   rows=JSON.parse(text);
+   githubDataSHA=response.content.sha;
+   localStorage.removeItem(STORAGE_KEY);
+   draw();
+  }
+  githubFileStatus('Uloženo na GitHub! Commit: '+response.commit.sha.slice(0,10)+'. GitHub Pages zpracuje změnu.');
+ }catch(e){githubFileStatus('Ukládání selhalo: '+e.message,true);}
+ finally{githubSetBusy(false);}
+});
+githubButtons();
