@@ -1,17 +1,15 @@
-# Škoda Octavia – srovnání generací
+# Atlas škodovek — původní hotový web
 
-Interaktivní český web pro porovnávání moderní Škody Octavia I–IV v provedeních před faceliftem a po faceliftu (celkem 8 variant).
+Původní aplikace vytvořená v předchozí konverzaci 29. října 2026:
 
-## Funkce
-- Výběr libovolných modelů a rychlé kombinace.
-- Fotografie zepředu, zezadu, z boku nebo všechny tři zároveň.
-- Změna počtu sloupců 1–4, responzivní zobrazení pro mobil.
-- Rozbalovací popisy vzhledových rozdílů.
-- Zvětšení fotografie a odkaz na originální zdroj i licenci.
-- Výběr se ukládá v prohlížeči a promítá do URL pro sdílení.
+**https://skoda-atlas-bernard.cozyfig132.chatgpt.site**
 
-Vstupní stránka: [index.html](./index.html).
+Obsahuje 40 modelových řad Škoda a 78 vzhledových verzí, s výběrem různých generací, faceliftů a karoserií k porovnání. Původní stránka umí porovnání fotografií zepředu a zezadu, přepínání rozložení a vlastní výběry.
 
-GitHub Pages: pokud je přiřazena doména bernio.cz a nasazení už doběhlo, web je na **https://bernio.cz/skoda/**. Jinak běžná URL projektu je **https://berniocal.github.io/skoda/**.
+## Stav tohoto repozitáře
 
-**Fotografie** se načítají z Wikimedia Commons, kde jsou u každé uvedeny údaje o autorství a licenci. Některé boční snímky jsou šikmé a u jednoho faceliftového vozu je boční foto karoserie Combi. Je potřeba internetové připojení.
+Důležité: `index.html` je **pouze přesměrování na původní hotovou aplikaci**. Nejedná se o export zdrojového kódu ani samostatné hostování aplikace na GitHub Pages.
+
+Důvod: zpětně je k dispozici publikovaná aplikace a její textový záznam, nikoli zdrojové soubory nasazení. Původní souborový projekt je nutné získat/exportovat, teprve pak může být aplikace přímo hostována v tomto repozitáři. Toto přesměrování bylo zvoleno místo vytváření nové, neúplné napodobeniny.
+
+Původní chybně vytvořená pouze-Octavia stránka byla nahrazena.
