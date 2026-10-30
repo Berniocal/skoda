@@ -156,18 +156,30 @@ $('#reset').onclick=()=>{if(confirm('Zahodit všechny lokální úpravy a načí
 $('#file').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{const parsed=JSON.parse(await file.text());if(!valid(parsed))throw Error('Soubor neobsahuje očekávané pole modelů.');rows=parsed;draw();status('Načteno '+rows.length+' modelů. Pro trvalé převzetí klikni na Uložit lokálně.')}catch(e){status('Import selhal: '+e.message)}e.target.value=''};
 (async()=>{try{const r=await fetch('data.json',{cache:'no-cache'});if(!r.ok)throw Error('Soubor data.json chybí.');const original=await r.json();const saved=localStorage.getItem(STORAGE_KEY);rows=saved?JSON.parse(saved):original;if(!valid(rows))throw Error('Neočekávaný formát dat.');draw();status('Načteno '+rows.length+' položek. Admin upravuje stejná data jako původní Atlas.')}catch(e){status('Katalog nelze načíst: '+e.message)}})();
 
-// GitHub REST API — jediným uloženým přihlašovacím údajem je proměnná v paměti stránky.
-// Token se neukládá do localStorage, sessionStorage, souborů ani do URL.
+// GitHub REST API. Zapamatování tokenu lze vypnout a uložený token smazat.
+// Při zapnuté volbě se token ukládá do localStorage (nešifrovaně, pouze v tomto prohlížeči).
+// Token se nikdy nezapisuje do repozitáře, URL ani do textu stránky.
 const GITHUB_OWNER='Berniocal';
 const GITHUB_REPO='skoda';
 const GITHUB_BRANCH='main';
 const GITHUB_CONTENTS='https://api.github.com/repos/'+GITHUB_OWNER+'/'+GITHUB_REPO+'/contents/';
+const GITHUB_TOKEN_STORAGE_KEY='skoda-atlas-github-pat-v1';
 let githubToken='';
 let githubDataSHA=null;
 let githubEditorSHA=null;
 let githubEditorPath='';
 let githubBusy=false;
 const githubElm=id=>document.getElementById(id);
+function githubStoredToken(){
+ try{return localStorage.getItem(GITHUB_TOKEN_STORAGE_KEY)||'';}catch{return '';}
+}
+function githubStoreToken(token){
+ try{
+  if(token)localStorage.setItem(GITHUB_TOKEN_STORAGE_KEY,token);
+  else localStorage.removeItem(GITHUB_TOKEN_STORAGE_KEY);
+  return true;
+ }catch{return false;}
+}
 function githubStatus(text,isError=false){
  const node=githubElm('ghStatus');node.textContent=text;
  node.classList.toggle('error',isError);
@@ -253,16 +265,19 @@ githubElm('connectGithub').addEventListener('click',async()=>{
   if(!valid(data))throw Error('Na GitHubu je neplatný formát data.json.');
   // Záměrně nenastavujeme githubDataSHA: pro bezpečné publikování je potřeba
   // nejprve explicitně načíst veřejná data (aby se nepřepsala stará lokální kopie).
-  githubStatus('Připojeno ke GitHubu. Nalezeno '+data.length+' položek. Klikni na „Načíst z GitHubu“, pak můžeš zveřejňovat změny.');
+  const remember=githubElm('ghRemember').checked;
+  const stored=githubStoreToken(remember?githubToken:'');
+  githubStatus('Připojeno ke GitHubu. Nalezeno '+data.length+' položek. '+(remember?(stored?'Token je zapamatovaný v tomto prohlížeči. ':'Token se nepodařilo uložit do prohlížeče. '):'Token se neukládá. ')+'Klikni na „Načíst z GitHubu“, pak můžeš zveřejňovat změny.');
  }catch(e){githubToken='';githubStatus('Připojení selhalo: '+e.message,true);}
  finally{githubSetBusy(false);}
 });
 githubElm('disconnectGithub').addEventListener('click',()=>{
+ githubStoreToken('');
  githubToken='';githubDataSHA=null;githubEditorSHA=null;githubEditorPath='';
  githubElm('ghToken').value='';
  githubElm('ghSourceText').value='';githubElm('ghSourceText').disabled=true;
  githubElm('ghCommitMessage').value='';
- githubStatus('Odpojeno. Token byl odstraněn z paměti administrace.');
+ githubStatus('Odpojeno. Uložený token byl smazán z tohoto prohlížeče.');
  githubFileStatus('Odpojeno.');githubButtons();
 });
 githubElm('reloadGithub').addEventListener('click',async()=>{
@@ -348,4 +363,30 @@ githubElm('ghSaveFile').addEventListener('click',async()=>{
  }catch(e){githubFileStatus('Ukládání selhalo: '+e.message,true);}
  finally{githubSetBusy(false);}
 });
+githubElm('ghRemember').addEventListener('change',()=>{
+ if(!githubElm('ghRemember').checked){
+  githubStoreToken('');
+  githubStatus(githubToken?'Token už se neukládá, ale do zavření stránky zůstáváš připojený.':'Ukládání tokenu je vypnuté.');
+ }else if(githubToken){
+  const ok=githubStoreToken(githubToken);
+  githubStatus(ok?'Token byl zapamatován v tomto prohlížeči.':'Token se nepodařilo uložit. Ověř nastavení prohlížeče.',!ok);
+ }
+});
+async function githubRestoreSavedToken(){
+ const saved=githubStoredToken();
+ if(!saved)return;
+ githubElm('ghRemember').checked=true;
+ githubToken=saved;githubSetBusy(true);
+ githubStatus('Ověřuji uložený GitHub token…');
+ try{
+  const result=await githubGetFile('data.json');
+  const parsed=JSON.parse(result.text);
+  if(!valid(parsed))throw Error('data.json neobsahuje platný katalog.');
+  githubStatus('Automaticky připojeno pomocí zapamatovaného tokenu. Na GitHubu je '+parsed.length+' položek. Pro úpravy klikni na „Načíst z GitHubu“.');
+ }catch(e){
+  githubToken='';githubStoreToken('');
+  githubStatus('Uložený token už nefunguje ('+e.message+'). Byl odstraněn; vlož nový token.',true);
+ }finally{githubSetBusy(false);}
+}
 githubButtons();
+githubRestoreSavedToken();
