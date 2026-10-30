@@ -16,7 +16,7 @@
 .github-source textarea{display:block;width:100%;min-height:400px;padding:15px;font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;resize:vertical;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:10px;tab-size:2}
 .github-source textarea:disabled{opacity:.55}
 .github-source-meta{font-size:13px;color:var(--muted)}
-.github-source .admin-btn,.github-connect .admin-btn{min-height:42px}
+.github-source .admin-btn,.github-connect .admin-btn{min-height:42px}.github-remember{display:flex;gap:10px;align-items:center;font-weight:600;color:var(--ink);margin:8px 0 12px;font-size:14px;cursor:pointer}.github-remember input{width:17px;height:17px;flex:none;accent-color:var(--accent,#18794e)}
 @media(max-width:720px){.github-grid{grid-template-columns:1fr}.github-grid button{width:100%}.github-source textarea{min-height:310px}}
 </style></head><body>
 <header><a class="brand" href="./"><span class="brand-mark">A<span>Š</span></span><span>ATLAS <strong>ŠKODOVEK</strong><small>SPRÁVA KATALOGU</small></span></a><span class="header-note">Správa původních modelů, bez změny designu srovnávače.</span></header>
@@ -28,9 +28,10 @@
 <label for="ghToken">Osobní GitHub token (Fine-grained PAT)
 <input id="ghToken" type="password" placeholder="github_pat_…" autocomplete="off" spellcheck="false" autocapitalize="off" aria-describedby="ghHelp"></label>
 <button id="connectGithub" class="admin-btn" type="button">Připojit GitHub</button>
-<button id="disconnectGithub" class="admin-btn secondary" type="button" disabled>Odpojit</button>
+<button id="disconnectGithub" class="admin-btn secondary" type="button" disabled>Odpojit a zapomenout token</button>
 </div>
-<small id="ghHelp"><b>Bezpečnost:</b> token vytvoř jen pro repozitář <b>skoda</b> a povol pouze <b>Repository permissions → Contents → Read and write</b>. Vyplňuj ho výhradně tady v administraci, nikdy do chatu ani do zdrojového kódu. Token zůstává jen v paměti otevřené stránky a po obnovení zmizí. <a href="https://github.com/settings/personal-access-tokens/new?name=Skoda-Atlas-Admin&amp;target_name=Berniocal&amp;contents=write" target="_blank" rel="noopener noreferrer">Vytvořit token na GitHubu ↗</a></small>
+<label class="github-remember"><input id="ghRemember" type="checkbox" checked> Zapamatovat GitHub token v tomto prohlížeči i po zavření stránky</label>
+<small id="ghHelp"><b>Bezpečnost:</b> token vytvoř jen pro repozitář <b>skoda</b> a povol pouze <b>Repository permissions → Contents → Read and write</b>. Vyplňuj ho výhradně tady v administraci, nikdy do chatu ani do zdrojového kódu. Je-li zapnuté „Zapamatovat“, token se po ověření uloží do <code>localStorage</code> v tomto prohlížeči a při příštím otevření se znovu použije. Token není šifrovaný a může ho přečíst JavaScript na stejné doméně: používej to jen na vlastním důvěryhodném zařízení. Tlačítko „Odpojit a zapomenout token“ jej smaže. <a href="https://github.com/settings/personal-access-tokens/new?name=Skoda-Atlas-Admin&amp;target_name=Berniocal&amp;contents=write" target="_blank" rel="noopener noreferrer">Vytvořit token na GitHubu ↗</a></small>
 <div id="ghStatus" class="github-status" role="status" aria-live="polite">Nepřipojeno. Lokální editor můžeš používat i bez tokenu.</div>
 </section>
 <div class="admin-note"><b>Katalog:</b> po připojení klikni na <b>Načíst z GitHubu</b>, uprav libovolné modely a klikni na <b>Zveřejnit katalog na GitHubu</b>. Změny vytvoří commit přímo na větvi main. Lokální uložení a export JSON zůstávají jako záloha.</div>
