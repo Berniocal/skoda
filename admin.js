@@ -96,7 +96,7 @@ async function githubRequest(method,path,body){
    headers:{
     'Accept':'application/vnd.github+json',
     'Authorization':'Bearer '+githubToken,
-    'X-GitHub-Api-Version':'2022-11-28',
+    // Verze REST API je výchozí 2022-11-28; vlastní hlavička může blokovat browser CORS.
     ...(method!=='GET'?{'Content-Type':'application/json'}:{})
    },
    ...(method!=='GET'?{body:JSON.stringify(body)}:{}),
